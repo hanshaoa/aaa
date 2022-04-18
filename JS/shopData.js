@@ -2888,6 +2888,6 @@ Data = {
     //         bigurl: "https://x.dscmall.cn/storage/data/indeximg/1490047937765033207.jpg",
     //         smallurl: "https://x.dscmall.cn/storage/data/indeximg/1490035744332013781.jpg",
     //     }, ]
-    },
+    // },
 
 };
