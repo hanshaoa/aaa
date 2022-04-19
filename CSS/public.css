@@ -1,24 +1,22 @@
 * {
-<<<<<<< HEAD
     padding: 0;
     margin: 0;
 }
 
 body {
     color: #555;
-=======
+
     margin: 0;
     padding: 0;
 }
 
 ul {
     list-style: none;
->>>>>>> 8a54157ac67e8c5fc3505583998770dd3cce1194
 }
 
 a {
     text-decoration: none;
-<<<<<<< HEAD
+
     color: #555;
 }
 
@@ -34,38 +32,15 @@ ul {
 }
 
 /* 左浮动 */
-=======
-}
-
-
-/* 版心 */
-
-.w1200 {
-    width: 1200px;
-    background-color: pink;
-    margin: 0 auto;
-}
-
-
-/* 左浮动 */
-
->>>>>>> 8a54157ac67e8c5fc3505583998770dd3cce1194
 .fl {
     float: left;
 }
 
-<<<<<<< HEAD
 /* 右浮动 */
-=======
-
-/* 右浮动 */
-
->>>>>>> 8a54157ac67e8c5fc3505583998770dd3cce1194
 .fr {
     float: right;
 }
 
-<<<<<<< HEAD
 /* 左外边距10px */
 .ml-20 {
     margin-left: 20px;
@@ -73,18 +48,10 @@ ul {
 
 a:hover {
     color: #f42828 !important;
-=======
-
-/* 左外边距10px */
-
-.ml-10 {
-    margin-left: 10px;
->>>>>>> 8a54157ac67e8c5fc3505583998770dd3cce1194
 }
 
 .red {
     color: #f42828;
-<<<<<<< HEAD
 }
 
 /* 字体图标 */
@@ -763,6 +730,4 @@ ul.keyword li a {
 
 .color-555 a {
     color: #555;
-=======
->>>>>>> 8a54157ac67e8c5fc3505583998770dd3cce1194
 }
