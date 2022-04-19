@@ -1,0 +1,46 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+
+/* 版心 */
+
+.w1200 {
+    width: 1200px;
+    background-color: pink;
+    margin: 0 auto;
+}
+
+
+/* 左浮动 */
+
+.fl {
+    float: left;
+}
+
+
+/* 右浮动 */
+
+.fr {
+    float: right;
+}
+
+
+/* 左外边距10px */
+
+.ml-10 {
+    margin-left: 10px;
+}
+
+.red {
+    color: #f42828;
+}

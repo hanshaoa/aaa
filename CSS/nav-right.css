@@ -1,0 +1,159 @@
+/* 右侧导航栏开始 */
+
+.nav-right {
+    width: 320px;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    right: 0;
+    z-index: 100000;
+}
+
+
+/* 导航栏的黑色导航部分 */
+
+.nav-right .nav-right-lnav {
+    width: 40px;
+    height: 100%;
+    background-color: #000;
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+
+.nav-right-lnav .quick_links {
+    width: 40px;
+    position: absolute;
+    top: 40%;
+    left: 0;
+    margin-top: -190px;
+    z-index: 2;
+}
+
+.nav-right-lnav .quick_links li {
+    margin-top: 10px;
+}
+
+.nav-right-lnav .quick_links li a,
+.nav-right-lnav .quick_toggle a {
+    display: block;
+    width: 40px;
+    height: 38px;
+    position: relative;
+    font-size: 12px;
+    color: #fff;
+}
+
+.nav-right-lnav .quick_links li a i,
+.nav-right-lnav .quick_toggle a i {
+    display: block;
+    width: 18px;
+    height: 18px;
+    position: absolute;
+    top: 10px;
+    left: 11px;
+}
+
+.nav-right-lnav .quick_links .buycar a {
+    height: 133px;
+    overflow: hidden;
+}
+
+.nav-right-lnav .quick_links .buycar a p {
+    width: 16px;
+    height: 48px;
+    margin: 38px 0 0 14px;
+    line-height: 16px;
+}
+
+.nav-right-lnav .quick_links .buycar a span {
+    display: block;
+    width: 21px;
+    height: 21px;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 21px;
+    margin: 5px 0 0 10px;
+    background-color: #f42424;
+}
+
+.nav-right-lnav .quick_links li a .user {
+    background: url(https://x.dscmall.cn/themes/ecmoban_dsc2017/images/common/ibar_sprites.png) no-repeat 0 0;
+}
+
+.nav-right-lnav .quick_links li a .car {
+    background: url(https://x.dscmall.cn/themes/ecmoban_dsc2017/images/common/ibar_sprites.png) no-repeat 0 -29px;
+}
+
+.nav-right-lnav .quick_links li a .my-order {
+    left: 2px;
+    top: 2px;
+    width: 35px;
+    height: 35px;
+    background: url(https://x.dscmall.cn/themes/ecmoban_dsc2017/images/common/chongzhi.png) no-repeat 0 0;
+}
+
+.nav-right-lnav .quick_links li a .coupon {
+    background: url(https://x.dscmall.cn/themes/ecmoban_dsc2017/images/common/ibar_sprites.png) no-repeat -36px 0;
+}
+
+.nav-right-lnav .quick_links li a .my-assets {
+    background: url(https://x.dscmall.cn/themes/ecmoban_dsc2017/images/common/ibar_sprites.png) no-repeat 0 -60px;
+}
+
+.nav-right-lnav .quick_links li a .my-tracks {
+    background: url(https://x.dscmall.cn/themes/ecmoban_dsc2017/images/common/ibar_sprites.png) no-repeat 0 -114px;
+}
+
+.nav-right-lnav .quick_links li a .my-collection {
+    left: 2px;
+    top: 2px;
+    width: 35px;
+    height: 35px;
+    background: url(https://x.dscmall.cn/themes/ecmoban_dsc2017/images/common/wdsc.png) no-repeat 0 0;
+}
+
+.nav-right-lnav .quick_links li a .my-email {
+    left: 2px;
+    top: 2px;
+    width: 35px;
+    height: 35px;
+    background: url(https://x.dscmall.cn/themes/ecmoban_dsc2017/images/common/email.png) no-repeat 0 0;
+}
+
+.nav-right-lnav .quick_links li a:hover,
+.nav-right-lnav .quick_toggle a:hover {
+    background-color: #f00;
+}
+
+.nav-right-lnav .quick_links li a:hover .zero {
+    background-color: #fff;
+    color: #f42424;
+}
+
+.nav-right-lnav .quick_toggle {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 40px;
+}
+
+.nav-right-lnav .quick_toggle li {
+    position: relative;
+}
+
+.nav-right-lnav .quick_toggle a i {
+    background: url(https://x.dscmall.cn/themes/ecmoban_dsc2017/images/common/ibar_sprites.png) no-repeat 0 -173px;
+}
+
+
+/* 导航栏右侧购物车部分 */
+
+.nav-right .nav-right-buycar {
+    width: 280px;
+    height: 100%;
+    background-color: #fff;
+    position: absolute;
+    left: 40px;
+    top: 0;
+}
