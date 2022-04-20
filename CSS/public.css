@@ -1,24 +1,14 @@
 * {
-<<<<<<< HEAD
     padding: 0;
     margin: 0;
 }
 
 body {
     color: #555;
-=======
-    margin: 0;
-    padding: 0;
-}
-
-ul {
-    list-style: none;
->>>>>>> 8a54157ac67e8c5fc3505583998770dd3cce1194
 }
 
 a {
     text-decoration: none;
-<<<<<<< HEAD
     color: #555;
 }
 
@@ -26,74 +16,51 @@ ul {
     list-style: none;
 }
 
+
 /* 版心 */
+
 .w1200 {
     width: 1200px;
     /* background-color: pink; */
     margin: 0 auto;
 }
 
-/* 左浮动 */
-=======
-}
-
-
-/* 版心 */
-
-.w1200 {
-    width: 1200px;
-    background-color: pink;
-    margin: 0 auto;
-}
-
 
 /* 左浮动 */
 
->>>>>>> 8a54157ac67e8c5fc3505583998770dd3cce1194
 .fl {
     float: left;
 }
 
-<<<<<<< HEAD
-/* 右浮动 */
-=======
 
 /* 右浮动 */
 
->>>>>>> 8a54157ac67e8c5fc3505583998770dd3cce1194
 .fr {
     float: right;
 }
 
-<<<<<<< HEAD
+
 /* 左外边距10px */
+
 .ml-20 {
     margin-left: 20px;
 }
 
 a:hover {
     color: #f42828 !important;
-=======
-
-/* 左外边距10px */
-
-.ml-10 {
-    margin-left: 10px;
->>>>>>> 8a54157ac67e8c5fc3505583998770dd3cce1194
 }
 
 .red {
     color: #f42828;
-<<<<<<< HEAD
 }
 
+
 /* 字体图标 */
+
 @font-face {
     font-family: "iconfont";
     /* Project id 2939639 */
-    src: url('../fonts/iconfont.woff2?t=1637337597759') format('woff2'),
-        url('../fonts/iconfont.woff?t=1637337597759') format('woff'),
-        url('../fonts/iconfont.ttf?t=1637337597759') format('truetype');
+    src: url('../fonts/iconfont.woff2?t=1637337597759') format('woff2'), url('../fonts/iconfont.woff?t=1637337597759') format('woff'), url('../fonts/iconfont.ttf?t=1637337597759') format('truetype');
 }
 
 .iconfont {
@@ -104,7 +71,9 @@ a:hover {
     -moz-osx-font-smoothing: grayscale;
 }
 
+
 /* 头部 */
+
 .header {
     /* background-color: red; */
     font-size: 12px;
@@ -115,7 +84,9 @@ a:hover {
     height: 126px;
 }
 
+
 /* logo  */
+
 .logo {
     float: left;
     width: 232px;
@@ -156,7 +127,9 @@ a:hover {
     cursor: pointer;
 }
 
+
 /* 字体图标-地图 */
+
 .iconfoot {
     float: left;
     font-style: normal;
@@ -180,7 +153,9 @@ a:hover {
     float: left;
 }
 
+
 /* 顶部登录注册 */
+
 .text-info {
     width: 105px;
     line-height: 30px;
@@ -194,6 +169,7 @@ a:hover {
 .link-logo {
     padding-right: 5px;
 }
+
 
 /* 头部右侧我的订单部分 */
 
@@ -227,6 +203,7 @@ a:hover {
 
 
 /* 网站导航开始 */
+
 .li_dorpdown {
     position: relative;
     width: 85px !important;
@@ -246,7 +223,9 @@ a:hover {
     z-index: 1;
 }
 
+
 /* 加盒子覆盖下边框 */
+
 .dsc-cm-bottom-line {
     position: absolute;
     right: 0;
@@ -302,7 +281,9 @@ a:hover {
     margin-right: 13px;
 }
 
+
 /* 网站导航下级目录显示 */
+
 .li_dorpdown:hover .dorpdown-layer {
     display: block;
 }
@@ -323,11 +304,11 @@ a:hover {
     font-size: 16px;
 }
 
-
 .icon-xiangxia::after {
     font-family: "iconfont" !important;
     content: "\e600";
 }
+
 
 /* 网站导航结束 */
 
@@ -347,8 +328,8 @@ a:hover {
 }
 
 
-
 /* 搜索 */
+
 .search-text {
     width: 378px;
     height: 15px;
@@ -385,7 +366,9 @@ a:hover {
     outline: 0;
 }
 
+
 /* 我的购物车 */
+
 .dsc-shopcar {
     position: relative;
     float: right;
@@ -445,7 +428,9 @@ a:hover {
     font-size: 12px;
 }
 
+
 /* 我的购物车经过效果 */
+
 .dorpdown-layer-car {
     position: absolute;
     width: 310px;
@@ -456,6 +441,7 @@ a:hover {
     background-color: #fff;
     display: none;
 }
+
 .my-shopping-line {
     position: absolute;
     right: 0;
@@ -466,6 +452,7 @@ a:hover {
     z-index: 1;
     display: none;
 }
+
 .prompt {
     width: 100%;
     height: 100%;
@@ -492,15 +479,21 @@ a:hover {
     text-align: left;
     line-height: 20px !important;
 }
+
+
 /* 经过我的购物车显示 */
+
 .dsc-shopcar:hover .dorpdown-layer-car {
     display: block;
 }
+
 .dsc-shopcar:hover .my-shopping-line {
     display: block;
 }
 
+
 /* 周大福 内衣 */
+
 ul.keyword {
     float: left;
     width: 100%;
@@ -552,7 +545,8 @@ ul.keyword li a {
     margin-left: 38px;
     height: 40px;
 }
-.header-current a{
+
+.header-current a {
     color: #e23435;
 }
 
@@ -564,8 +558,12 @@ ul.keyword li a {
     line-height: 40px;
 }
 
+
 /* 公共样式头部结束 */
+
+
 /* 公共样式底部开始 */
+
 .footer-new {
     width: 100%;
     bottom: 0;
@@ -612,7 +610,9 @@ ul.keyword li a {
     line-height: 32px;
 }
 
+
 /* 精灵图 */
+
 .f-icon {
     width: 32px;
     height: 32px;
@@ -636,7 +636,9 @@ ul.keyword li a {
     background-position: -136px 0;
 }
 
+
 /* 公共样式上部右侧开始 */
+
 .contact-item {
     margin-top: 25px;
     display: inline-block;
@@ -656,7 +658,9 @@ ul.keyword li a {
     background-position: -3px -138px;
 }
 
+
 /* 底部中间部分 */
+
 .footer-new-con {
     width: 100%;
     background-color: #262626;
@@ -731,7 +735,9 @@ ul.keyword li a {
     color: #fff;
 }
 
+
 /* 公共样式底部 下部部分 */
+
 .footer-new-bot {
     width: 100%;
     height: 175px;
@@ -763,6 +769,4 @@ ul.keyword li a {
 
 .color-555 a {
     color: #555;
-=======
->>>>>>> 8a54157ac67e8c5fc3505583998770dd3cce1194
 }
