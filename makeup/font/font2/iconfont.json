@@ -1,0 +1,23 @@
+{
+  "id": "3342691",
+  "name": "no name",
+  "font_family": "iconfont",
+  "css_prefix_text": "icon-",
+  "description": "",
+  "glyphs": [
+    {
+      "icon_id": "1472510",
+      "name": "列表",
+      "font_class": "liebiao",
+      "unicode": "e62a",
+      "unicode_decimal": 58922
+    },
+    {
+      "icon_id": "7596603",
+      "name": "24gf-list5",
+      "font_class": "24gf-list5",
+      "unicode": "eb14",
+      "unicode_decimal": 60180
+    }
+  ]
+}
