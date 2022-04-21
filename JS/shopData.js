@@ -364,6 +364,7 @@ Data = {
                 ]
             },
             goodtitle: "麦斯威尔杰威尔发胶定型喷雾男士干胶头发持久定型造型啫喱水发蜡蓬松清香 快速定型，蓬松清香，不起白屑，",
+            goodprice: "100.00",
             goodzprice: "0.01", //折扣价格
             sales: "5", //销量
             goodtype: "1",
@@ -378,6 +379,7 @@ Data = {
                 ]
             },
             goodtitle: "Maybelline/美宝莲好气色水润唇部套装 滋润保湿持久显色唇露唇膏",
+            goodprice: "100.00",
             goodzprice: "34.00", //折扣价格
             sales: "1", //销量
             goodtype: "1",
@@ -393,6 +395,7 @@ Data = {
                 ]
             },
             goodtitle: "测试",
+            goodprice: "100.00",
             goodzprice: "60.00", //折扣价格
             sales: "11", //销量
             goodtype: "1",
@@ -407,6 +410,7 @@ Data = {
                 ]
             },
             goodtitle: "小米宝莲 透净瞬洁净妆乳 120ml 卸妆乳 卸妆液卸妆无残留专柜正品 安全温和 彻底清洁 水润清爽",
+            goodprice: "100.00",
             goodzprice: "129.60", //折扣价格
             sales: "3", //销量
             goodtype: "1",
@@ -423,6 +427,7 @@ Data = {
                 ]
             },
             goodtitle: "宝姿美宝莲 好气色潮色双搭轻垫霜提亮肌肤白皙气垫CC霜凸显好气色 提亮肌肤",
+            goodprice: "100.00",
             goodzprice: "28.79", //折扣价格
             sales: "0", //销量
             goodtype: "1",
@@ -438,6 +443,7 @@ Data = {
                 ]
             },
             goodtitle: "宝姿美宝莲 奇妙净颜盈润洁面膏100ml 保湿 控油 滋润 祛除多余油脂 不干燥 不紧绷",
+            goodprice: "100.00",
             goodzprice: "340.00", //折扣价格
             sales: "0", //销量
             goodtype: "2",
@@ -452,6 +458,7 @@ Data = {
                 ]
             },
             goodtitle: "宝姿美宝莲 色秀指甲油 糖果色 专业彩妆美甲 专柜正品 绚丽色彩 多色可选",
+            goodprice: "100.00",
             goodzprice: "226.79", //折扣价格
             sales: "0", //销量
             goodtype: "2",
@@ -466,6 +473,7 @@ Data = {
                 ]
             },
             goodtitle: "宝姿Maybelline/美宝莲净澈多效卸妆水清爽型 舒缓 深层清洁 舒缓 补水 深层清洁 卸妆",
+            goodprice: "100.00",
             goodzprice: "56.00", //折扣价格
             sales: "0", //销量
             goodtype: "3",
@@ -482,6 +490,7 @@ Data = {
                 ]
             },
             goodtitle: "宝姿美宝莲宝蓓护唇膏 宝贝护唇膏 润唇膏 唇彩口红保湿 滋润",
+            goodprice: "100.00",
             goodzprice: "34.00", //折扣价格
             sales: "0", //销量
             goodtype: "2",
@@ -497,6 +506,7 @@ Data = {
                 ]
             },
             goodtitle: "宝姿美宝莲 宝蓓爱炫彩护唇膏 润唇膏 波普风 保湿滋润 显色丰润 一扫唇色暗沉 卖萌必备",
+            goodprice: "100.00",
             goodzprice: "116.00", //折扣价格
             sales: "0", //销量
             goodtype: "2",
@@ -513,6 +523,7 @@ Data = {
                 ]
             },
             goodtitle: "佳沪数码-华为欧莱雅男士水能保湿化妆护肤品套装深层补水滋润洗面奶爽肤水乳液",
+            goodprice: "100.00",
             goodzprice: "60.00", //折扣价格
             sales: "0", //销量
             goodtype: "3",
@@ -529,6 +540,7 @@ Data = {
                 ]
             },
             goodtitle: "皮克朋一叶子去角质去死皮膏啫喱面部温和祛黑头全身温和补水凝胶磨砂膏 新鲜护肤 植物护肤 去除角质 光滑柔嫩",
+            goodprice: "100.00",
             goodzprice: "108.00", //折扣价格
             sales: "0", //销量
             goodtype: "1",
@@ -545,6 +557,7 @@ Data = {
                 ]
             },
             goodtitle: "NINE WEST花美时三合一自动旋转双头眉笔眉粉染眉膏画眉持久防水防汗不脱色 防水防汗 持久不晕染 正品包邮",
+            goodprice: "100.00",
             goodzprice: "200.00", //折扣价格
             sales: "0", //销量
             goodtype: "1",
@@ -562,6 +575,7 @@ Data = {
                 ]
             },
             goodtitle: "飞利浦美宝莲绝色持久唇膏 粉红警报 魅惑炫亮润泽 唇彩口红",
+            goodprice: "100.00",
             goodzprice: "300.00", //折扣价格
             sales: "17", //销量
             goodtype: "2",
@@ -579,6 +593,7 @@ Data = {
                 ]
             },
             goodtitle: "justyle美宝莲绝色持久唇膏 粉红警报 魅惑炫亮润泽 唇彩口红",
+            goodprice: "100.00",
             goodzprice: "520.00", //折扣价格
             sales: "0", //销量
             goodtype: "3",
@@ -594,6 +609,7 @@ Data = {
                 ]
             },
             goodtitle: "宝姿美宝莲 顺滑恒久眉笔流畅线条 利落型眉 可长久持妆 新品上市 流畅线条 利落型眉 长效持妆",
+            goodprice: "100.00",
             goodzprice: "100.00", //折扣价格
             sales: "0", //销量
             goodtype: "2",
@@ -604,43 +620,57 @@ Data = {
         // 猜你喜欢
         guesspic: [{
             goodid: "53",
-            goodurls: "https://x.dscmall.cn/storage/images/202201/thumb_img/1278_copy_0_thumb_G_1642458923455.jpg",
+            goodurls: {
+                nowurl: "https://x.dscmall.cn/storage/images/202201/thumb_img/1278_copy_0_thumb_G_1642458923455.jpg"
+            },
             goodtitle: "测试1",
             goodprice: "68.00",
             sales: "1", //售出
         }, {
             goodid: "54",
-            goodurls: "https://x.dscmall.cn/storage/images/202201/thumb_img/1279_copy_0_thumb_G_1642458971157.jpg",
+            goodurls: {
+                nowurl: "https://x.dscmall.cn/storage/images/202201/thumb_img/1279_copy_0_thumb_G_1642458971157.jpg",
+            },
             goodtitle: "测试1",
             goodprice: "68.00",
             sales: "0", //售出
         }, {
             goodid: "55",
-            goodurls: "https://x.dscmall.cn/storage/images/202108/thumb_img/0_thumb_G_1630270465116.jpg",
+            goodurls: {
+                nowurl: "https://x.dscmall.cn/storage/images/202108/thumb_img/0_thumb_G_1630270465116.jpg",
+            },
             goodtitle: " 测试堂鼠商品",
             goodprice: "0.01",
             sales: "3", //售出
         }, {
             goodid: "56",
-            goodurls: "https://x.dscmall.cn/storage/images/202103/thumb_img/0_thumb_G_1615502729536.jpg",
+            goodurls: {
+                nowurl: "https://x.dscmall.cn/storage/images/202103/thumb_img/0_thumb_G_1615502729536.jpg",
+            },
             goodtitle: "测试库存",
             goodprice: "0.01",
             sales: "1", //售出
         }, {
             goodid: "57",
-            goodurls: "https://x.dscmall.cn/storage/images/201703/thumb_img/0_thumb_G_1490169118213.jpg",
+            goodurls: {
+                nowurl: "https://x.dscmall.cn/storage/images/201703/thumb_img/0_thumb_G_1490169118213.jpg",
+            },
             goodtitle: "小米红米3s手机壳保护套红米3高配版指纹男女款潮版磨砂硬壳防摔 收藏截图 送大礼包",
             goodprice: "15.90",
             sales: "1", //售出
         }, {
             goodid: "58",
-            goodurls: "https://x.dscmall.cn/storage/images/201703/thumb_img/0_thumb_G_1490224291051.jpg",
+            goodurls: {
+                nowurl: "https://x.dscmall.cn/storage/images/201703/thumb_img/0_thumb_G_1490224291051.jpg",
+            },
             goodtitle: "宝姿美宝莲宝蓓护唇膏 宝贝护唇膏 润唇膏 唇彩口红保湿 滋润",
             goodprice: "100.00",
             sales: "0", //售出
         }, {
             goodid: "59",
-            goodurls: "https://x.dscmall.cn/storage/images/202106/thumb_img/0_thumb_G_1622745740754.jpg",
+            goodurls: {
+                nowurl: "https://x.dscmall.cn/storage/images/202106/thumb_img/0_thumb_G_1622745740754.jpg",
+            },
             goodtitle: "堂鼠",
             goodprice: "588.00",
             sales: "297", //售出
