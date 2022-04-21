@@ -1,0 +1,13 @@
+.bannerwindow>li{
+    text-align: center;
+    background-color: #43434f;
+}
+.presale-new-content{
+    width: 100%;
+    height: 106px;
+}
+.presale-new-content .pnc-list{
+    margin: auto;
+    width: 1903px;
+    
+}

@@ -1,0 +1,220 @@
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+div {
+    display: block;
+}
+
+.top {
+    height: 182px;
+}
+
+.concet {
+    width: 100%;
+    margin: 0 auto;
+    overflow: hidden;
+    position: relative;
+    z-index: 2;
+}
+
+.nav {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.big-img {
+    width: 1920px;
+    text-align: center;
+    margin-left: -360px;
+}
+
+.bottom {
+    width: 1200px;
+    padding-top: 40px;
+}
+
+.bottom-title {
+    width: 300px;
+    margin: 0 auto;
+    border-top: 1px solid #d2d2d2;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 5px;
+}
+
+.bottom-title span {
+    display: block;
+    width: 100px;
+    margin: -12px auto 0;
+    font-size: 16px;
+    font-weight: 700;
+    color: #000;
+    background: #fff;
+}
+
+.bottom-cent {
+    line-height: 40px;
+    font-size: 14px;
+    text-align: center;
+}
+
+.bottom-cent a:first-child {
+    margin-left: 5px;
+}
+
+.bottom-cent a {
+    color: #555;
+    white-space: nowrap;
+}
+
+.bottom-cent a:hover {
+    color: red;
+}
+
+.bottom-cent .curr {
+    font-weight: bold;
+    color: red;
+}
+
+.point {
+    margin-left: 10px;
+    margin-right: 6px;
+    font-style: normal;
+}
+
+.brand-list {
+    margin-top: 40px;
+    margin-right: -10px;
+}
+
+.brand-list li {
+    width: 278px;
+    height: 443px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    background: #fff;
+    text-align: center;
+    border: 6px solid #E4E4E4;
+    float: left;
+}
+
+.brand-list li .img {
+    margin-bottom: 30px;
+    height: 285px;
+    display: block;
+    position: relative;
+}
+
+.brand-list li .b-logo {
+    height: 57px;
+    position: relative;
+    margin-bottom: 20px;
+}
+
+.brand-list li .img img {
+    width: 278px;
+    height: 285px;
+}
+
+.brand-list li .brand_desc {
+    padding: 0 20px;
+    color: #fff;
+    position: absolute;
+    width: 238px;
+    height: 0;
+    bottom: 0;
+    left: 0;
+    line-height: 24px;
+    z-index: 2;
+    font-size: 14px;
+    transition: all .5s ease;
+    overflow: hidden;
+}
+
+.brand_desc_notic .tit {
+    padding-top: 90px;
+}
+
+.brand-list li .brand_desc .tit {
+    font-size: 18px;
+    line-height: 36px;
+    padding-top: 40px;
+}
+
+.brand_desc .info {
+    font-size: 16px;
+    line-height: 30px;
+    text-align: left;
+}
+
+.brand_desc .info p {
+    text-align: center;
+    line-height: 60px;
+    font-size: 14px;
+}
+
+.brand-list li .mask {
+    width: 100%;
+    height: 0;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 0;
+    background: #000;
+    opacity: 0.45;
+    transition: all .5s ease;
+}
+
+.brand-list li .b-logo {
+    height: 57px;
+    position: relative;
+    margin-bottom: 20px;
+}
+
+.brand-list li .b-logo .follow {
+    position: absolute;
+    z-index: 2;
+    left: 50%;
+    top: 50%;
+    width: 80px;
+    height: 30px;
+    margin-left: -40px;
+    margin-top: -15px;
+    color: #fff;
+    background: #f43434;
+    line-height: 30px;
+    border-radius: 15px;
+    opacity: 0;
+    filter: alpha(opacity=0);
+}
+
+.brand-list li .b-logo .follow i {
+    vertical-align: -2px;
+    margin-right: 5px;
+}
+
+.iconfont {
+    font-family: "iconfont" !important;
+    font-size: 16px;
+    font-style: normal;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.brand-list li .b-logo img {
+    height: 57px;
+    max-width: 260px;
+}
+
+.brand-list li .slogan {
+    font-size: 14px;
+    color: #8c8c8c;
+    margin-bottom: 30px;
+}

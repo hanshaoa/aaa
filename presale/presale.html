@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="CSS/presale.css">
+</head>
+<body>
+    <div class="top">
+
+    </div>
+    <div class="presale-nav">
+        <div class="presale-nav-content">
+            <a href="javascript:void(0)">
+                全部商品分类
+            </a>
+            <div class="presale-navmain">
+                <a href="" class="font-red">首页</a>
+                <a href="presale-new.html">新品发布</a>
+                <a href="">抢先定</a>
+            </div>
+        </div>
+    </div>
+    <div class="banner">
+
+        <div class="bannerwindow">
+            <ul class="bannerslideshow">
+                <li class="bannerli1">
+                    <img src="https://x.dscmall.cn/storage/data/afficheimg/1490725861596561088.png" alt="">
+                </li>
+                <li class="bannerli2">
+                    <img src="https://x.dscmall.cn/storage/data/afficheimg/1490725841991955342.png" alt="">
+                </li>
+                <li class="bannerli3">
+                    <img src="https://x.dscmall.cn/storage/data/afficheimg/1490725932892712911.png" alt="">
+                </li>
+            </ul>
+            <div class="bannerspots">
+                <div class="littlespots"></div>
+                <div class="littlespots"></div>
+                <div class="littlespots"></div>
+            </div>
+        </div>
+        <div class="bannernav">
+            <ul>
+                <li>
+                     <i class="bannernav icon1">
+                     </i>
+                     智娱智乐
+                </li>
+                <li>
+                    <i class="bannernav icon2">
+                    </i>
+                    手机通讯
+                </li>
+                <li>
+                    <i class="bannernav icon3">
+                    </i>
+                    电脑数码
+                </li>
+                <li>
+                    <i class="bannernav icon4">
+                    </i>
+                    家用电器
+                </li>
+                <li>
+                    <i class="bannernav icon5">
+                    </i>
+                    家居家装
+                </li>
+                <li>
+                    <i class="bannernav icon6">
+                    </i>
+                    食品生鲜
+                </li>
+                <li>
+                    <i class="bannernav icon7">
+                    </i>
+                    图书音像
+                </li>
+                
+                
+            </ul>
+        </div>
+    </div>
+
+    <div class="zhaop">
+        <div class="zhaopcontent">
+            <div class="zhaoptitle">招牌推荐</div>
+            <img src="https://x.dscmall.cn/storage/data/afficheimg/1490724290008094165.png" alt="">
+            <div class="zhaopslide">
+
+            </div>
+            <img src="https://x.dscmall.cn/storage/data/afficheimg/1490724298871812825.png" alt="">
+
+        </div>
+        
+    </div>
+    
+    <div class="box">
+        <div class="wicket">
+            <ul class="slideshow">
+                <li><img src="https://x.dscmall.cn/storage/data/afficheimg/1490724525832521054.png" alt=""></li>
+                <li><img src="https://x.dscmall.cn/storage/data/afficheimg/1490723239188592641.png" alt=""></li>
+                <li><img src="https://x.dscmall.cn/storage/data/afficheimg/1490724619919484515.png" alt=""></li>
+            </ul>
+
+            <div class="prev pointer">&lt;</div>
+            <div class="next pointer">&gt;</div>
+        </div>
+
+        <ul class="dot">
+            <li class="active pitch"></li>
+            <li class="active"></li>
+            <li class="active"></li>
+
+        </ul>
+    </div>
+    <script src="./js/animationUntil.js"></script>
+    <script>
+        var ani=document.querySelector('.banner ul')
+        ani.onmouseover=function(){
+            this.style.animationPlayState='paused'
+        }
+        ani.onmouseout=function(){
+            this.style.animationPlayState='running'
+        }
+
+
+        var active = document.getElementsByClassName("active");
+        var slideshow = document.getElementsByClassName("slideshow")[0];
+        var wicket = document.getElementsByClassName("wicket")[0];
+        var prev = document.getElementsByClassName("prev")[0];
+        var next = document.getElementsByClassName("next")[0];
+
+        // 定义计数器
+        var counter_tp = 0;
+        var counter_xyd = 0;
+
+        // 1.鼠标移入wicket内左右箭头显示
+        // 移出隐藏
+        wicket.onmouseover = function() {
+            // 设置两箭头属性为显示
+            prev.style.display = "block";
+            next.style.display = "block";
+            // 清除计时器
+            clearInterval(wicket.automove);
+        }
+        // 移出执行两箭头隐藏
+        wicket.onmouseout = function() {
+            prev.style.display = "none";
+            next.style.display = "none";
+            // 开始自动轮播
+            automove();
+        }
+        // 左箭头点击事件
+        prev.onclick = function() {
+            // 圆点和图片的计数器减减
+            counter_tp--;
+            counter_xyd--;
+            // 判断圆点或图片是否走到最左侧，若是就返回最右侧
+            if (counter_tp < 0) {
+                counter_tp = 2;
+            }
+            if (counter_xyd < 0) {
+                counter_xyd = 2;
+            }
+            // 利用排他性进行圆点样式的变动
+            for (var i = 0; i < active.length; i++) {
+                active[i].setAttribute("class", "active");
+            }
+
+            active[counter_xyd].setAttribute("class", "active pitch");
+            // 变量赋值
+            var targer = counter_tp * -600;
+            // 调用方法 进行图片移动
+            moveAnimation2(slideshow, targer);
+        }
+        // 右箭头点击事件
+        next.onclick = function() {
+            counter_tp++;
+            counter_xyd++;
+            // 判断计数器当前的值  如在最左侧则赋值为右侧
+            if (counter_tp == 3) {
+                counter_tp = 0;
+            }
+            if (counter_xyd == 3) {
+                counter_xyd = 0;
+            }
+            //  利用排他性进行圆点样式变动
+            for (var i = 0; i < active.length; i++) {
+                active[i].setAttribute("class", "active");
+            }
+
+            active[counter_xyd].setAttribute("class", "active pitch");
+            // 变量赋值
+            var targer = counter_tp * -600;
+            // 调用函数以进行图片移动
+            moveAnimation2(slideshow, targer);
+        }
+        // 设定自动轮播函数
+        function automove() {
+            // 设定间歇定时器
+            wicket.automove = setInterval(function() {
+
+                next.onclick();
+
+            }, 2000)
+
+        }
+        // 调用方法
+        automove();
+        
+    </script>
+</body>
+</html>
