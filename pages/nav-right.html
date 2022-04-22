@@ -6,8 +6,9 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" href="../CSS/public.css">
+    <link rel="stylesheet" href="../CSS/zhangqiandegonggongyangshi.css">
     <link rel="stylesheet" href="../CSS/nav-right.css">
+    <script src="../JS/jquery-3.6.0.js"></script>
 </head>
 
 <body>
@@ -15,11 +16,30 @@
         <div class="nav-right-lnav">
             <div class="quick_links">
                 <ul>
-                    <li>
+                    <li class="lnav-first">
                         <a href="#">
                             <i class="user"></i>
                         </a>
-                        <div class="lnav-login"></div>
+                        <div class="lnav-login">
+                            <div class="user-infor">
+                                <div class="user-img">
+                                    <img src="https://x.dscmall.cn/themes/ecmoban_dsc2017/images/touxiang.jpg" alt="" width="100%">
+                                </div>
+                                <div class="information">
+                                    <div class="user-name">
+                                        用户名：暂无
+                                    </div>
+                                    <div class="grade">
+                                        级别：暂无
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="user-btn">
+                                <a href="#">我的订单</a>
+                                <a href="#">我的收藏</a>
+                            </div>
+                            <i></i>
+                        </div>
                     </li>
                     <li class="buycar">
                         <a href="#">
@@ -28,60 +48,102 @@
                             <span class="zero">0</span>
                         </a>
                     </li>
-                    <li>
+                    <li class="nav-list">
                         <a href="#">
                             <i class="my-order"></i>
                         </a>
-                        <div></div>
+                        <div class="mp_tooltip">
+                            <span>我的订单</span>
+                            <i class="triangle"></i>
+                        </div>
                     </li>
-                    <li>
+                    <li class="nav-list">
                         <a href="#">
                             <i class="coupon"></i>
                         </a>
-                        <div></div>
+                        <div class="mp_tooltip">
+                            <span>优惠券</span>
+                            <i class="triangle"></i>
+                        </div>
                     </li>
-                    <li>
+                    <li class="nav-list">
                         <a href="#">
                             <i class="my-assets"></i>
                         </a>
-                        <div></div>
+                        <div class="mp_tooltip">
+                            <span>我的资产</span>
+                            <i class="triangle"></i>
+                        </div>
                     </li>
-                    <li>
+                    <li class="nav-list">
                         <a href="#">
                             <i class="my-tracks"></i>
                         </a>
-                        <div></div>
+                        <div class="mp_tooltip">
+                            <span>我的足迹</span>
+                            <i class="triangle"></i>
+                        </div>
                     </li>
-                    <li>
+                    <li class="nav-list">
                         <a href="#">
                             <i class="my-collection"></i>
                         </a>
-                        <div></div>
+                        <div class="mp_tooltip">
+                            <span>我的收藏</span>
+                            <i class="triangle"></i>
+                        </div>
                     </li>
-                    <li>
+                    <li class="nav-list">
                         <a href="#">
                             <i class="my-email"></i>
                         </a>
-                        <div></div>
+                        <div class="mp_tooltip">
+                            <span>邮箱订阅</span>
+                            <i class="triangle"></i>
+                        </div>
                     </li>
                 </ul>
             </div>
             <div class="quick_toggle">
                 <ul>
-                    <li>
+                    <li class="nav-list">
                         <a href="#">
                             <i class="service"></i>
                         </a>
-                        <div></div>
+                        <div class="mp_tooltip">
+                            <span>客服中心</span>
+                            <i class="triangle"></i>
+                        </div>
                     </li>
                 </ul>
             </div>
 
         </div>
         <div class="nav-right-buycar">
-
+            <a href="#" class="closebtn"></a>
+            <div class="buycar-title">
+                <h3>购物车</h3>
+            </div>
+            <div class="buycar-content">
+                <div class="buycar-center">
+                    <div class="bgimg"></div>
+                    <div class="buycar-text">
+                        购物车空空的，赶快去挑选心仪的商品吧~<br>
+                        <a href="#" class="gohome">去首页看看</a>
+                    </div>
+                </div>
+            </div>
+            <div class="buycar-bottom">
+                <div class="buycar-bottom-tit">
+                    <span class="buycar-sum">共<span class="buycar-goodsnum">0</span>件商品</span>
+                    <span class="buycar-price">￥0.00</span>
+                </div>
+                <a href="#" class="buycar-gobtn">去购物车结算</a>
+            </div>
         </div>
     </div>
+
+    <script src="../JS/nav-right.js"></script>
 </body>
 
 </html>

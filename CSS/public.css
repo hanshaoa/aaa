@@ -24,6 +24,11 @@ ul {
     list-style: none;
 }
 
+i,
+em {
+    font-style: normal !important;
+}
+
 /* 版心 */
 .w1200 {
     width: 1200px;
@@ -46,8 +51,13 @@ ul {
     margin-left: 20px;
 }
 
+/* 链接经过效果 */
 a:hover {
     color: #f42828 !important;
+}
+
+.categorys-type a:hover {
+    color: #fff !important;
 }
 
 .red {
@@ -83,7 +93,7 @@ a:hover {
 }
 
 /* logo  */
-.logo {
+.header .w .logo {
     float: left;
     width: 232px;
     height: 125px;
@@ -93,31 +103,31 @@ a:hover {
     /* background-color: green; */
 }
 
-.logoImg {
+.header .w .logo .logoImg {
     height: 125px;
 }
 
-.logo a {
+.header .logo a {
     width: 232px;
     height: 126px;
     display: table-cell;
     vertical-align: middle;
 }
 
-.header_con {
+.header .header_con {
     float: left;
     height: 125px;
     width: calc(100% - 232px);
     /* background-color: gold; */
 }
 
-.site-nav {
+.header_con .site-nav {
     width: 100%;
     height: 30px;
     background-color: #eee;
 }
 
-.city-choie {
+.header_con .city-choie {
     width: 70px;
     height: 30px;
     cursor: pointer;
@@ -130,7 +140,6 @@ a:hover {
     width: 20px;
     height: 26px;
     margin-top: 2px;
-    /* background-color: red; */
     font-size: 20px;
     color: #f42424;
     margin-top: 2px;
@@ -142,65 +151,63 @@ a:hover {
 }
 
 .ui-areamini-text {
-    /* display: inline-block; */
     font-size: 12px;
     float: left;
 }
 
 /* 顶部登录注册 */
-.text-info {
+.header_con .text-info {
     width: 105px;
     line-height: 30px;
 }
 
-.text-info a {
+.header_con .text-info a {
     display: inline-block;
     width: 48px;
 }
 
-.link-logo {
+.header_con .link-logo {
     padding-right: 5px;
 }
 
 /* 头部右侧我的订单部分 */
 
-.quick-menu>li {
+.header_con .quick-menu>li {
     float: left;
     width: 60px;
     text-align: center;
 }
 
-.quick-menu>li>div>a:hover {
+.header_con .quick-menu>li>div>a:hover {
     color: #e23435;
 }
 
-.dt {
+.header_con .quick-menu .dt {
     padding: 0 2px 0 2px;
 }
 
-.quick-menu .spacer {
+.header_con .quick-menu .spacer {
     width: 1px;
     height: 10px;
     margin: 11px 5px 0;
     background-color: #ccc;
 }
 
-.dsc-cm {
+.quick-menu .li_dorpdown .dsc-cm {
     position: relative;
     height: 28px;
     border: 1px solid transparent;
-    /* box-sizing: border-box; */
 }
 
 
 /* 网站导航开始 */
-.li_dorpdown {
+.quick-menu .li_dorpdown {
     position: relative;
     width: 85px !important;
     cursor: pointer;
 }
 
-.dorpdown-layer {
+.li_dorpdown .dorpdown-layer {
     position: absolute;
     width: 385px;
     right: 0;
@@ -225,7 +232,7 @@ a:hover {
     display: none;
 }
 
-.dorpdown-layer dl {
+.li_dorpdown .dorpdown-layer dl {
     width: 85px;
     float: left;
 }
@@ -245,11 +252,11 @@ a:hover {
     height: 100%;
 }
 
-.fore2 {
+.dorpdown-layer .fore2 {
     float: right;
 }
 
-.fore2 dt {
+.dorpdown-layer .fore2 dt {
     text-align: left;
 }
 
@@ -258,12 +265,12 @@ a:hover {
     font-weight: 700;
 }
 
-.fore2 dd {
+.dorpdown-layer .fore2 dd {
     width: 250px;
     text-align: left;
 }
 
-.fore2 .item {
+.dorpdown-layer .fore2 .item {
     float: left;
     width: 70px;
     margin-right: 13px;
@@ -303,11 +310,11 @@ a:hover {
     /* background-color: rebeccapurple; */
 }
 
-.form {
+.dsc-search-shopcar .form {
     margin: 20px 0 0 58px;
 }
 
-.form form {
+.dsc-search-shopcar .form form {
     width: 545px;
     height: 35px;
     /* background-color: blue; */
@@ -316,7 +323,7 @@ a:hover {
 
 
 /* 搜索 */
-.search-text {
+.dsc-search-shopcar .search-text {
     width: 378px;
     height: 15px;
     padding: 8px;
@@ -326,7 +333,7 @@ a:hover {
     float: left;
 }
 
-.button-goods {
+.dsc-search-shopcar .button-goods {
     border: 0;
     width: 70px;
     height: 35px;
@@ -339,7 +346,7 @@ a:hover {
     outline: 0;
 }
 
-.button-store {
+.dsc-search-shopcar .button-store {
     border: 0;
     width: 70px;
     height: 34px;
@@ -367,7 +374,7 @@ a:hover {
     /* background-color: yellow; */
 }
 
-.shopCar {
+.dsc-shopcar .shopCar {
     width: 178px;
     height: 33px;
     line-height: 33px;
@@ -423,6 +430,7 @@ a:hover {
     background-color: #fff;
     display: none;
 }
+
 .my-shopping-line {
     position: absolute;
     right: 0;
@@ -433,19 +441,20 @@ a:hover {
     z-index: 1;
     display: none;
 }
+
 .prompt {
     width: 100%;
     height: 100%;
 }
 
-.nogoods {
+.dsc-shopcar .dorpdown-layer-car .nogoods {
     width: 150px;
     height: 100%;
     background-color: pink;
     background: url(https://x.dscmall.cn/themes/ecmoban_dsc2017/images/cart-nogoods.png) no-repeat 30px 20px;
 }
 
-.prompt-right {
+.dsc-shopcar .dorpdown-layer-car .prompt-right {
     width: 135px;
     height: 100%;
     box-sizing: border-box;
@@ -459,10 +468,12 @@ a:hover {
     text-align: left;
     line-height: 20px !important;
 }
+
 /* 经过我的购物车显示 */
 .dsc-shopcar:hover .dorpdown-layer-car {
     display: block;
 }
+
 .dsc-shopcar:hover .my-shopping-line {
     display: block;
 }
@@ -519,7 +530,8 @@ ul.keyword li a {
     margin-left: 38px;
     height: 40px;
 }
-.header-current a{
+
+.header-current a {
     color: #e23435;
 }
 
