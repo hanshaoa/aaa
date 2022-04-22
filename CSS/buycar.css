@@ -1,0 +1,735 @@
+body {
+    background-color: #f8f8f8;
+}
+
+
+/* 头部部分 */
+
+.header-card {
+    background-color: #fff;
+    border-bottom: 2px solid #f42424;
+    margin-bottom: 16px;
+    padding-bottom: 10px;
+}
+
+.header-center {
+    display: flex;
+    height: 100px;
+    justify-content: space-between;
+}
+
+.logo a {
+    display: block;
+    height: 100px;
+    width: 159px;
+    float: left;
+    margin-right: 30px;
+}
+
+.logo a img {
+    width: 100%;
+    margin-top: 20px;
+}
+
+.logo .tit {
+    font-size: 18px;
+    color: #8c8c8c;
+    margin-top: 36px;
+}
+
+.logo .tit span {
+    color: #f42424;
+}
+
+.dsc-search {
+    margin: 30px 0 0 78px;
+}
+
+.dsc-search input {
+    padding: 9px 8px;
+    width: 332px;
+    height: 14px;
+    font-size: 12px;
+    border: 2px solid #f42424;
+    color: rgb(153, 153, 153);
+    outline: none;
+}
+
+.dsc-search button {
+    width: 50px;
+    height: 36px;
+    line-height: 34px;
+    background-color: #f42424;
+    cursor: pointer;
+    outline: none;
+    border: 0;
+    position: relative;
+    top: 6px;
+    left: -5px;
+}
+
+.dsc-search button i {
+    display: block;
+    width: 20px;
+    height: 20px;
+    background: url(https://x.dscmall.cn/themes/ecmoban_dsc2017/images/search.png) no-repeat 0 0;
+    margin: 0 auto;
+    /* position: relative;
+    z-index: 2; */
+}
+
+
+/* 购物车商品部分 */
+
+
+/* 标题左半部分 */
+
+.cart-filter {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    height: 36px;
+}
+
+.cart-filter-l {
+    display: flex;
+}
+
+.cart-step-item b {
+    font-weight: normal;
+    display: inline-block;
+    width: 126px;
+    height: 34px;
+    line-height: 34px;
+    text-align: center;
+    color: #8c8c8c;
+    font-size: 14px;
+    border: 1px solid #f8f8f8;
+    border-radius: 18px;
+}
+
+.cart-step-item i {
+    width: 13px;
+    margin: 0 12px;
+    display: inline-block;
+    vertical-align: middle;
+    color: #d2d2d2;
+}
+
+.cart-step-item.curr b {
+    font-weight: normal;
+    background-color: #ff8f23;
+    border-color: #ff8f23;
+    color: #fff;
+}
+
+.cart-step-item.curr i {
+    color: #ff8f23;
+}
+
+
+/* 标题右部分 */
+
+.cart-filter-r {
+    display: flex;
+    color: #8c8c8c;
+    margin-top: 3px;
+}
+
+.cart-filter-r .text {
+    height: 25px;
+    line-height: 25px;
+    font-size: 14px;
+    margin-right: 15px;
+}
+
+.cart-filter-r .selector {
+    position: relative;
+    font-size: 12px;
+}
+
+.cart-filter-r .tit {
+    padding: 0 10px;
+    border: 1px solid #d2d2d2;
+    height: 23px;
+    line-height: 23px;
+    cursor: pointer;
+    font-size: 12px;
+    font-weight: normal;
+}
+
+
+/* 商品部分 */
+
+.cart-table {
+    margin-top: 16px;
+}
+
+.cart-head {
+    background-color: #fff;
+    overflow: hidden;
+    height: 50px;
+    line-height: 50px;
+}
+
+.cart-head .column {
+    float: left;
+    height: 50px;
+    font-size: 14px;
+    color: #8c8c8c;
+}
+
+.cart-head .c-checkbox {
+    width: 150px;
+}
+
+.cart-checkbox {
+    padding-left: 20px;
+    float: left;
+}
+
+.ui-checkbox {
+    display: none;
+}
+
+.ui-label-14 {
+    background-repeat: no-repeat;
+    background-image: url(https://x.dscmall.cn/themes/ecmoban_dsc2017/images/check/checkbox_14x14.png);
+    background-position: 0 3px;
+    cursor: pointer;
+    padding-left: 25px;
+}
+
+.cart-head .c-goods {
+    width: 430px;
+}
+
+.cart-head .c-props {
+    width: 142px;
+}
+
+.cart-head .c-price {
+    width: 166px;
+}
+
+.cart-head .c-quantity {
+    width: 132px;
+}
+
+.cart-head .c-sum {
+    width: 120px;
+}
+
+.cart-head .c-action {
+    width: 60px;
+}
+
+.cart-tbody {
+    margin-top: 10px;
+}
+
+.cart-item .shop {
+    height: 50px;
+    line-height: 50px;
+}
+
+.cart-checkbox {
+    padding-left: 20px;
+    float: left;
+}
+
+.cart-item .shop-txt {
+    float: left;
+}
+
+.cart-item .shop-txt .shop-name {
+    display: inline-block;
+    max-width: 200px;
+    overflow: hidden;
+    vertical-align: middle;
+    font-size: 14px;
+    float: left;
+}
+
+.cart-item .shop-txt .self-shop-name {
+    min-width: 62px;
+    padding: 0 10px;
+    height: 20px;
+    line-height: 20px;
+    color: #fff;
+    background-color: #f42424;
+    border-radius: 10px;
+    text-align: center;
+    float: left;
+    margin: 15px 0 0 5px;
+    cursor: default;
+}
+
+.p-kefu.p-c-violet {
+    color: #7b75f3;
+    margin-left: 5px;
+}
+
+.p-kefu.p-c-violet:hover {
+    color: #f42424;
+}
+
+.cart-item .item-list {
+    position: relative;
+    padding: 20px;
+    background-color: #fff;
+}
+
+.item-header {
+    padding: 20px 0 0 20px;
+}
+
+.item-header .f-txt {
+    font-size: 12px;
+    color: #8c8c8c;
+    padding-bottom: 10px;
+    line-height: 16px;
+    overflow: hidden;
+}
+
+.full-icon {
+    float: left;
+    height: 16px;
+    line-height: 16px;
+    color: #fff;
+    background-color: #ff8f23;
+    padding: 0 7px;
+    position: relative;
+    margin-right: 10px;
+}
+
+.full-icon i {
+    position: absolute;
+    width: 10px;
+    height: 4px;
+    background: url(https://x.dscmall.cn/themes/ecmoban_dsc2017/images/cart-line-02.png) no-repeat;
+    display: block;
+    left: 0;
+    bottom: -4px;
+}
+
+.ftx-01 {
+    color: #f42424 !important;
+}
+
+.item-header .f-txt .f-price {
+    float: right;
+    padding-right: 47px;
+    display: block;
+    width: 120px;
+    text-align: left;
+}
+
+.cart-item .item-list .item-item {
+    padding: 15px 0 15px 75px;
+    position: relative;
+}
+
+.mt5 {
+    margin-top: 5px;
+}
+
+.cart-item .item-list .item-item {
+    padding: 15px 0 15px 75px;
+    position: relative;
+    overflow: hidden;
+}
+
+.cart-item .item-list .item-item .item-form {
+    position: relative;
+}
+
+.item-form .s-checkbox {
+    position: absolute;
+    left: -75px;
+    z-index: 2;
+    padding-left: 20px;
+}
+
+.item-form .cell {
+    float: left;
+}
+
+.item-form .s-checkbox input {
+    display: none;
+}
+
+.item-form .s-checkbox label {
+    padding-left: 18px;
+    background-image: url(https://x.dscmall.cn/themes/ecmoban_dsc2017/images/check/checkbox_14x14.png);
+    background-position: 0 1px;
+    background-repeat: no-repeat;
+    cursor: pointer;
+}
+
+.item-form .s-goods {
+    width: 435px;
+}
+
+.item-form .goods-item {
+    display: block;
+    margin-right: 75px;
+}
+
+.item-form .goods-item .p-img {
+    float: left;
+    width: 70px;
+    height: 70px;
+    border: 1px solid #d2d2d2;
+}
+
+.p-img img {
+    width: 100%;
+    height: 100%;
+}
+
+.item-form .goods-item .item-msg {
+    float: left;
+    width: calc(100% - 92px);
+    margin-left: 20px;
+}
+
+.item-form .goods-item .item-msg a {
+    font-size: 12px;
+    color: #555;
+}
+
+a:hover {
+    color: #f42424 !important;
+}
+
+.item-form .s-props {
+    width: 155px;
+    padding: 0px 35px 0 0;
+}
+
+.item-form .s-price {
+    width: 130px;
+    padding: 0px 28px 0 0;
+}
+
+.item-form .s-price strong {
+    display: block;
+    font-size: 16px;
+    color: #333;
+    font-weight: 400;
+}
+
+.item-form .s-quantity {
+    width: 60px;
+    padding: 0px 68px 0 0;
+}
+
+.item-form .s-quantity .amount-warp {
+    overflow: hidden;
+    float: none;
+    margin-bottom: 2px;
+}
+
+.item-form .s-quantity .buy-num {
+    width: 24px;
+    padding: 0 2px;
+    border: 1px solid #d2d2d2;
+    height: 28px;
+    float: left;
+    outline: 0;
+    text-align: center;
+}
+
+.amount-warp .a-btn {
+    float: left;
+    width: 22px;
+    height: 28px;
+    border: 1px solid #d2d2d2;
+    border-left: 0;
+}
+
+.amount-warp .a-btn a {
+    float: left;
+    width: 22px;
+    height: 14px;
+    line-height: 14px;
+    text-align: center;
+}
+
+.amount-warp .a-btn .btn-reduce {
+    height: 13px;
+    border-top: 1px solid #d2d2d2;
+}
+
+.amount-warp .a-btn .btn-disabled {
+    color: #e0e0e0;
+}
+
+.havegoods {
+    color: #8c8c8c;
+    font-size: 12px;
+    text-align: center;
+}
+
+.item-form .s-sum {
+    width: 120px;
+    padding: 0px 10px 0 0;
+}
+
+.item-form .s-sum strong {
+    font-size: 16px;
+    font-weight: 700;
+    color: #333;
+}
+
+.item-form .s-action a {
+    display: block;
+    font-size: 12px;
+    color: #438cde;
+    margin-top: 5px;
+}
+
+.item-form .s-action a:first-child {
+    margin-top: 0;
+}
+
+
+/* 底部 */
+
+.cart-tfoot {
+    margin-top: 10px;
+    height: 50px;
+    line-height: 50px;
+    background-color: #fff;
+    font-size: 14px;
+    color: #8c8c8c;
+}
+
+.cart-tfoot .cart-toolbar {
+    height: 50px;
+}
+
+.cart-checkbox {
+    padding-left: 20px;
+    float: left;
+}
+
+.cart-tfoot .operation {
+    float: left;
+}
+
+.cart-tfoot .operation a {
+    margin-left: 20px;
+    color: #8c8c8c;
+}
+
+.toolbar-right {
+    float: right;
+}
+
+.cart-tfoot .btn-area {
+    float: right;
+}
+
+.cart-tfoot .btn-area form {
+    float: left;
+    height: 50px;
+}
+
+.submit-btn {
+    width: 160px;
+    height: 50px;
+    border: 0;
+    background-color: #f42424;
+    color: #fff;
+    line-height: 50px;
+    font-size: 24px;
+    text-align: center;
+    cursor: pointer;
+    float: left;
+}
+
+.cart-tfoot .price-sum {
+    float: right;
+    margin-right: 25px;
+}
+
+.cart-tfoot .price-sum * {
+    float: left;
+}
+
+.sumPrice {
+    font-size: 24px;
+    font-weight: 700;
+    color: #f42424;
+}
+
+.cart-tfoot .reduce-sum {
+    float: right;
+    margin-right: 25px;
+}
+
+.totalRePrice {
+    color: #333;
+}
+
+.cart-tfoot .amount-sum {
+    float: right;
+    margin-right: 25px;
+}
+
+.cart-tfoot .amount-sum .cart_check_num {
+    color: #f42424;
+    margin: 0 5px;
+}
+
+
+/* 猜你喜欢 */
+
+.gussbox {
+    padding-top: 50px;
+}
+
+.guss-tit {
+    overflow: hidden;
+    padding: 0 0 20px;
+    height: 35px;
+    background: url(https://x.dscmall.cn/themes/ecmoban_dsc2017/images/dian-ico2.png) repeat-x 0 18px;
+    text-align: center;
+    font-size: 21px;
+    line-height: 33px;
+}
+
+.guss-tit h3 {
+    display: inline;
+    padding: 0 50px;
+    background-color: #f8f8f8;
+    font-weight: 400;
+    font-size: 21px;
+    color: #555;
+}
+
+.guess-like {
+    width: 1200px;
+    height: 300px;
+    margin: 0 auto;
+}
+
+.guess-like ul {
+    display: flex;
+    justify-content: space-between;
+}
+
+.guess-like ul li {
+    width: 180px;
+    font-size: 12px;
+    color: #555555;
+}
+
+.guess-like ul li .p-img {
+    width: 100%;
+}
+
+.guess-like .p-img:hover {
+    opacity: 0.6;
+    cursor: pointer;
+}
+
+.guess-like .p-price {
+    font-size: 16px;
+    color: red;
+}
+
+.guess-like .p-title:hover {
+    cursor: pointer;
+    color: red;
+}
+
+.guess-likee .p-title {
+    margin-top: 2px;
+}
+
+.guess-like ul li .p-title {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+.guess-like .p-num {
+    font-size: 12px;
+    color: gray;
+    margin-top: 2px;
+}
+
+
+/* 一些被选中的状态 */
+
+label.yes {
+    background-image: url(https://x.dscmall.cn/themes/ecmoban_dsc2017/images/check/checked_solid_14x14.png)!important;
+}
+
+
+/* 自定义模态框 */
+
+.modal-bg {
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    background: rgba(0, 0, 0, .5);
+    display: none;
+}
+
+.modal-box {
+    width: 360px;
+    height: 200px;
+    background: #fff;
+    z-index: 10;
+    position: fixed;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    margin: auto;
+    display: none;
+}
+
+.modal-box h2 {
+    height: 40px;
+    background: #efefef;
+    text-align: center;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 40px;
+}
+
+.modal-box p {
+    width: 80%;
+    margin-left: 10%;
+    margin-top: 30px;
+    height: 80px;
+}
+
+.modal-box .btn {
+    width: 60%;
+    margin-left: 20%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.modal-box .btn button {
+    background-color: #f55;
+    width: 100px;
+    height: 40px;
+    text-align: center;
+    line-height: 40px;
+    color: #fff;
+}
+
+.modal-box .btn button:first-child {
+    background-color: #ccc;
+}

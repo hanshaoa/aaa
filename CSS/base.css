@@ -12,6 +12,10 @@ a {
     color: #555;
 }
 
+em {
+    font-style: normal;
+}
+
 ul {
     list-style: none;
 }
