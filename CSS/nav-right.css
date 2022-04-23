@@ -1,6 +1,4 @@
 /* 右侧导航栏开始 */
-
-
 /* .nav-right-box {
     width: 40px;
     overflow: hidden;
@@ -40,7 +38,10 @@
     margin-top: 10px;
     position: relative;
 }
-
+/* 鼠标经 购物车字体 变白色 */
+.nav-right-lnav .quick_links .buycar a:hover {
+    color: #fff !important;
+}
 .nav-right-lnav .quick_links li a,
 .nav-right-lnav .quick_toggle a {
     display: block;

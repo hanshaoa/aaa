@@ -1,3 +1,4 @@
+// 侧边栏购物车
 // 控制a标签的hover
 $('.nav-list').each(function() {
     $(this).hover(function() {
@@ -12,7 +13,9 @@ $('.nav-list').each(function() {
         }, 300, 'linear')
     })
 })
-
+$('.buycar').children('p').mouseover(function () {
+    $(this).css('color', '#fff');
+})
 // 控制购物车内容的伸缩
 $('.buycar').click(function() {
     if ($('.nav-right').css('right') == '0px') {
