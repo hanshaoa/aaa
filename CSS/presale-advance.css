@@ -1,0 +1,35 @@
+.bannerwindow>li>img{
+    margin-left: 530px;
+}
+.bannerwindow>li{
+    background-color: #50BEFB;
+    text-align: left;
+}
+
+.presale-advance-show{
+
+    margin-top: 30px;
+    width: 100%;
+
+}
+.pa-show{
+    width: 1200px;
+    margin: auto;
+    border-top: 1px solid #dcdcdc;
+
+}
+.pa-show ul{
+    float: left;
+    height: auto;
+}
+.pa-show ul li{
+    float: left;
+    border: 1px solid #dcdcdc;
+    margin: -1px -1px 0 0;
+}
+.pa-show-content{
+    width: 255px;
+    height: auto;
+    padding: 20px 22px;
+
+}

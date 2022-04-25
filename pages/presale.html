@@ -1,0 +1,548 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="CSS/presale.css">
+    <link rel="stylesheet" href="CSS/public.css">
+</head>
+<body>
+    <!-- 头部 -->
+    <div class="header">
+        <div class="w w1200">
+            <div class="logo">
+                <div class="logoImg">
+                    <a href="javascript:;">
+                        <img src="https://x.dscmall.cn/storage/images/common/shop_logo.gif" alt="大商创logo">
+                    </a>
+                </div>
+            </div>
+            <div class="header_con">
+                <div class="site-nav">
+                    <div class="fl ml-20">
+                        <!-- 地图导航 -->
+                        <div class="city-choie fl">
+                            <i class="iconfoot icon-map-marker"></i>
+                            <span class="ui-areamini-text">郑州市</span>
+                        </div>
+                        <!-- 登录注册 -->
+                        <div class="text-info fl">
+                            <a href="javascript:;" class="link-logo red">请登录</a>
+                            <a href="javascript:;" class="link-regist">免费注册</a>
+                        </div>
+                    </div>
+                    <!-- 头部右侧部分 -->
+                    <ul class="quick-menu fr">
+                        <li>
+                            <div class="dt">
+                                <a href="#">我的订单</a>
+                            </div>
+                        </li>
+                        <li class="spacer"></li>
+                        <li>
+                            <div class="dt">
+                                <a href="#">我的浏览</a>
+                            </div>
+                        </li>
+                        <li class="spacer"></li>
+                        <li>
+                            <div class="dt">
+                                <a href="#">我的收藏</a>
+                            </div>
+                        </li>
+                        <li class="spacer"></li>
+                        <li>
+                            <div class="dt">
+                                <a href="#">客户服务</a>
+                            </div>
+                        </li>
+                        <li class="spacer"></li>
+
+                        <li class="li_dorpdown" data-ectype="dorpdown">
+                            <div class="dt dsc-cm">网站导航
+                                <i class="iconfont icon-xiangxia"></i>
+                                <div class="dsc-cm-bottom-line"></div>
+                            </div>
+                            <div class="dd dorpdown-layer">
+                                <dl class="fore1">
+                                    <dt>特色主题</dt>
+                                    <dd>
+                                        <div class="item"><a
+                                                href="#"
+                                                target="_blank">家用电器</a></div>
+                                        <div class="item"><a
+                                                href="#"
+                                                target="_blank">男装女装</a></div>
+                                        <div class="item"><a
+                                                href="#"
+                                                target="_blank">鞋靴箱包</a></div>
+                                    </dd>
+                                </dl>
+                                <dl class="fore2">
+                                    <dt>促销活动</dt>
+                                    <dd>
+                                        <div class="item"><a href="#">拍卖活动</a>
+                                        </div>
+                                        <div class="item"><a href="#">共创商品</a>
+                                        </div>
+                                        <div class="item"><a href="#">积分商城</a>
+                                        </div>
+                                        <div class="item"><a href="#">CMS频道</a></div>
+                                        <div class="item"><a href="#">优惠活动</a>
+                                        </div>
+                                        <div class="item"><a href="#">超值礼包</a>
+                                        </div>
+                                        <div class="item"><a
+                                                href="#">优惠券</a>
+                                        </div>
+                                        <div class="item"><a href="#">礼品卡</a>
+                                        </div>
+                                        <div class="item"><a href="#">预售商品</a>
+                                        </div>
+                                    </dd>
+                                </dl>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+                <div class="dsc-search-shopcar">
+                    <!-- 搜商品 -->
+                    <div class="form fl">
+                        <form action="">
+                            <input name="keywords" value="" placeholder="周大福" class="search-text">
+                            <button class="button-goods">搜商品</button>
+                            <button class="button-store">搜店铺</button>
+                        </form>
+                        <ul class="keyword">
+                            <li>
+                                <a href="#" target="_black">周大福</a>
+                            </li>
+                            <li>
+                                <a href="#" target="_black">内衣</a>
+                            </li>
+                            <li>
+                                <a href="#" target="_black">Five Plus</a>
+                            </li>
+                            <li>
+                                <a href="#" target="_black">手机</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <!-- 我的购物车 -->
+                    <div class="dsc-shopcar">
+                        <div class="shopCar">
+                            <a href="#">
+                                <!-- <div class="shopcar-center"> -->
+                                <i></i>
+                                <span>我的购物车</span>
+                                <em>14</em>
+                                <!-- </div> -->
+                            </a>
+                        </div>
+                        <div class="my-shopping-line"></div>
+                        <div class="dorpdown-layer-car">
+                            <div class="prompt">
+                                <div class="nogoods fl">
+                                    <b></b>
+                                </div>
+                                <div class="prompt-right fr">
+                                    <span>购物车中还没有商品，赶紧选购吧！</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+ 
+    </div>
+    <!-- 预售页面专用头部导航 -->
+    <div class="presale-nav">
+        <div class="presale-nav-content">
+            <a href="javascript:void(0)">
+                全部商品分类
+            </a>
+            <div class="presale-navmain">
+                <a href="#" class="font-red">首页</a>
+                <a href="presale-new.html">新品发布</a>
+                <a href="presale-advance.html">抢先定</a>
+            </div>
+        </div>
+    </div>
+    <div class="banner">
+
+        <div class="bannerwindow">
+            <ul class="bannerslideshow">
+                <li class="bannerli1">
+                    <img src="https://x.dscmall.cn/storage/data/afficheimg/1490725861596561088.png" alt="">
+                </li>
+                <li class="bannerli2">
+                    <img src="https://x.dscmall.cn/storage/data/afficheimg/1490725841991955342.png" alt="">
+                </li>
+                <li class="bannerli3">
+                    <img src="https://x.dscmall.cn/storage/data/afficheimg/1490725932892712911.png" alt="">
+                </li>
+            </ul>
+            <div class="bannerspots">
+                <div class="littlespots"></div>
+                <div class="littlespots"></div>
+                <div class="littlespots"></div>
+            </div>
+            <div class="bannernav">
+                <ul>
+                    <li>
+                         <i class="bannernav icon1">
+                         </i>
+                         智娱智乐
+                    </li>
+                    <li>
+                        <i class="bannernav icon2">
+                        </i>
+                        手机通讯
+                    </li>
+                    <li>
+                        <i class="bannernav icon3">
+                        </i>
+                        电脑数码
+                    </li>
+                    <li>
+                        <i class="bannernav icon4">
+                        </i>
+                        家用电器
+                    </li>
+                    <li>
+                        <i class="bannernav icon5">
+                        </i>
+                        家居家装
+                    </li>
+                    <li>
+                        <i class="bannernav icon6">
+                        </i>
+                        食品生鲜
+                    </li>
+                    <li>
+                        <i class="bannernav icon7">
+                        </i>
+                        图书音像
+                    </li>
+                    
+                    
+                </ul>
+            </div>
+        </div>
+
+    </div>
+
+    <div class="zhaop">
+        <div class="zhaopcontent">
+            <div class="zhaoptitle">招牌推荐</div>
+            <img src="https://x.dscmall.cn/storage/data/afficheimg/1490724290008094165.png" alt="">
+            <div class="zhaopslide">
+
+            </div>
+            <img src="https://x.dscmall.cn/storage/data/afficheimg/1490724298871812825.png" alt="">
+
+        </div>
+        
+    </div>
+    
+    <div class="box">
+        <div class="wicket">
+            <ul class="slideshow">
+                <li><img src="https://x.dscmall.cn/storage/data/afficheimg/1490724525832521054.png" alt=""></li>
+                <li><img src="https://x.dscmall.cn/storage/data/afficheimg/1490723239188592641.png" alt=""></li>
+                <li><img src="https://x.dscmall.cn/storage/data/afficheimg/1490724619919484515.png" alt=""></li>
+            </ul>
+
+            <div class="prev pointer">&lt;</div>
+            <div class="next pointer">&gt;</div>
+        </div>
+
+        <ul class="dot">
+            <li class="active pitch"></li>
+            <li class="active"></li>
+            <li class="active"></li>
+
+        </ul>
+    </div>
+    <!-- 公共样式底部 -->
+    <div class="footer-new">
+        <!-- 上部 -->
+        <div class="footer-new-top w1200">
+            <!-- 公共样式上部左侧开始 -->
+            <div class="service-list">
+                <div class="service-item">
+                    <i class="f-icon f-icon-qi"></i>
+                    <span>七天包退</span>
+                </div>
+                <div class="service-item">
+                    <i class="f-icon f-icon-zheng"></i>
+                    <span>正品保障</span>
+                </div>
+                <div class="service-item">
+                    <i class="f-icon f-icon-hao"></i>
+                    <span>好评如潮</span>
+                </div>
+                <div class="service-item">
+                    <i class="f-icon f-icon-shan"></i>
+                    <span>闪电发货</span>
+                </div>
+                <div class="service-item">
+                    <i class="f-icon f-icon-quan"></i>
+                    <span>权威荣誉</span>
+                </div>
+            </div>
+            <!-- 公共样式上部左侧结束 -->
+            <!-- 公共样式上部右侧开始 -->
+            <div class="contact">
+                <div class="contact-item contact-item-first">
+                    <i class="f-icon f-icon-tel"></i>
+                    <span>4001-021-758</span>
+                </div>
+                <div class="contact-item">
+                    <a href="#" class="btn-chn">
+                        <i class="f-icon f-icon-kefu"></i>
+                        <span>咨询客服</span>
+                    </a>
+                </div>
+            </div>
+            <!-- 公共样式上部右侧结束 -->
+
+        </div>
+        <!-- 中部 -->
+        <div class="footer-new-con">
+            <div class="fnc-wrap w1200">
+                <!-- 公共样式底部中间左侧部分 -->
+                <div class="help-list">
+                    <div class="help-item">
+                        <h3>新手上路</h3>
+                        <ul>
+                            <li>
+                                <a href="#">售后流程</a>
+                            </li>
+                            <li>
+                                <a href="#">购物流程</a>
+                            </li>
+                            <li>
+                                <a href="#">订购方式</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="help-item">
+                        <h3>新手上路</h3>
+                        <ul>
+                            <li>
+                                <a href="#">售后流程</a>
+                            </li>
+                            <li>
+                                <a href="#">购物流程</a>
+                            </li>
+                            <li>
+                                <a href="#">订购方式</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="help-item">
+                        <h3>新手上路</h3>
+                        <ul>
+                            <li>
+                                <a href="#">售后流程</a>
+                            </li>
+                            <li>
+                                <a href="#">购物流程</a>
+                            </li>
+                            <li>
+                                <a href="#">订购方式</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="help-item">
+                        <h3>新手上路</h3>
+                        <ul>
+                            <li>
+                                <a href="#">售后流程</a>
+                            </li>
+                            <li>
+                                <a href="#">购物流程</a>
+                            </li>
+                            <li>
+                                <a href="#">订购方式</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="help-item">
+                        <h3>新手上路</h3>
+                        <ul>
+                            <li>
+                                <a href="#">售后流程</a>
+                            </li>
+                            <li>
+                                <a href="#">购物流程</a>
+                            </li>
+                            <li>
+                                <a href="#">订购方式</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <!-- 公共样式底部中间右侧部分 -->
+                <div class="qr-code">
+                    <div class="qr-item qr-item-first">
+                        <div class="code_img">
+                            <img src="https://x.dscmall.cn/storage/images/common/ecjia_qrcode.jpg" alt="">
+                            <div class="code_txt">关注微信</div>
+                        </div>
+                    </div>
+                    <div class="qr-item qr-item-last">
+                        <div class="code_img">
+                            <img src="https://x.dscmall.cn/storage/images/common/ecjia_qrcode.jpg" alt="">
+                            <div class="code_txt">关注微信</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- 下部 -->
+        <div class="footer-new-bot">
+            <div class="w1200">
+                <p class="copyright_links">
+                    <a href="#">首页</a>
+                    <span class="spacer"></span>
+                    <a href="#">隐私保护</a>
+                    <span class="spacer"></span>
+                    <a href="#">联系我们</a>
+                    <span class="spacer"></span>
+                    <a href="#">免责条款</a>
+                    <span class="spacer"></span>
+                    <a href="#">公司简介</a>
+                    <span class="spacer"></span>
+                    <a href="#">商家入驻</a>
+                    <span class="spacer"></span>
+                    <a href="#">供应商入驻</a>
+                    <span class="spacer"></span>
+                    <a href="#">意见反馈</a>
+                    <span class="spacer"></span>
+                </p>
+                 <p class="copyright_links">
+                     <a href="#">b2b2c</a>
+                     <span class="spacer"></span>
+                     <a href="#">多用户商城系统</a>
+                     <span class="spacer"></span>
+                     <a href="#">商城系统</a>
+                     <span class="spacer"></span>
+                     <a href="#">ecjia新零售</a>
+                 </p>
+                 <p class="color-555">
+                    <span>ICP备案证书号:</span>
+                    <a href="#">沪ICP备14029880号-5</a>
+                 </p>
+                 <p class="color-555">
+                     <a href="#">版权所有 © 2005-2021 大商创，并保留所有权利。POWERED BY DSCMALL</a>
+                 </p>
+            </div>
+        </div>
+    </div>
+    <script src="../JS/jquery-3.6.0.js"></script>
+    <script src="../JS/public.js"></script>
+    <script src="./js/animationUntil.js"></script>
+    <script>
+        var ani=document.querySelector('.banner ul')
+        ani.onmouseover=function(){
+            this.style.animationPlayState='paused'
+        }
+        ani.onmouseout=function(){
+            this.style.animationPlayState='running'
+        }
+
+
+        var active = document.getElementsByClassName("active");
+        var slideshow = document.getElementsByClassName("slideshow")[0];
+        var wicket = document.getElementsByClassName("wicket")[0];
+        var prev = document.getElementsByClassName("prev")[0];
+        var next = document.getElementsByClassName("next")[0];
+
+        // 定义计数器
+        var counter_tp = 0;
+        var counter_xyd = 0;
+
+        // 1.鼠标移入wicket内左右箭头显示
+        // 移出隐藏
+        wicket.onmouseover = function() {
+            // 设置两箭头属性为显示
+            prev.style.display = "block";
+            next.style.display = "block";
+            // 清除计时器
+            clearInterval(wicket.automove);
+        }
+        // 移出执行两箭头隐藏
+        wicket.onmouseout = function() {
+            prev.style.display = "none";
+            next.style.display = "none";
+            // 开始自动轮播
+            automove();
+        }
+        // 左箭头点击事件
+        prev.onclick = function() {
+            // 圆点和图片的计数器减减
+            counter_tp--;
+            counter_xyd--;
+            // 判断圆点或图片是否走到最左侧，若是就返回最右侧
+            if (counter_tp < 0) {
+                counter_tp = 2;
+            }
+            if (counter_xyd < 0) {
+                counter_xyd = 2;
+            }
+            // 利用排他性进行圆点样式的变动
+            for (var i = 0; i < active.length; i++) {
+                active[i].setAttribute("class", "active");
+            }
+
+            active[counter_xyd].setAttribute("class", "active pitch");
+            // 变量赋值
+            var targer = counter_tp * -600;
+            // 调用方法 进行图片移动
+            moveAnimation2(slideshow, targer);
+        }
+        // 右箭头点击事件
+        next.onclick = function() {
+            counter_tp++;
+            counter_xyd++;
+            // 判断计数器当前的值  如在最左侧则赋值为右侧
+            if (counter_tp == 3) {
+                counter_tp = 0;
+            }
+            if (counter_xyd == 3) {
+                counter_xyd = 0;
+            }
+            //  利用排他性进行圆点样式变动
+            for (var i = 0; i < active.length; i++) {
+                active[i].setAttribute("class", "active");
+            }
+
+            active[counter_xyd].setAttribute("class", "active pitch");
+            // 变量赋值
+            var targer = counter_tp * -600;
+            // 调用函数以进行图片移动
+            moveAnimation2(slideshow, targer);
+        }
+        // 设定自动轮播函数
+        function automove() {
+            // 设定间歇定时器
+            wicket.automove = setInterval(function() {
+
+                next.onclick();
+
+            }, 2000)
+
+        }
+        // 调用方法
+        automove();
+
+        
+    </script>
+</body>
+</html>
