@@ -1,0 +1,772 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    color: #555;
+}
+
+a {
+    text-decoration: none;
+    color: #555;
+}
+
+ul {
+    list-style: none;
+}
+
+
+/* 版心 */
+
+.w1200 {
+    width: 1200px;
+    /* background-color: pink; */
+    margin: 0 auto;
+}
+
+
+/* 左浮动 */
+
+.fl {
+    float: left;
+}
+
+
+/* 右浮动 */
+
+.fr {
+    float: right;
+}
+
+
+/* 左外边距10px */
+
+.ml-20 {
+    margin-left: 20px;
+}
+
+a:hover {
+    color: #f42828 !important;
+}
+
+.red {
+    color: #f42828;
+}
+
+
+/* 字体图标 */
+
+@font-face {
+    font-family: "iconfont";
+    /* Project id 2939639 */
+    src: url('../fonts/iconfont.woff2?t=1637337597759') format('woff2'), url('../fonts/iconfont.woff?t=1637337597759') format('woff'), url('../fonts/iconfont.ttf?t=1637337597759') format('truetype');
+}
+
+.iconfont {
+    font-family: "iconfont" !important;
+    font-size: 16px;
+    font-style: normal;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+
+/* 头部 */
+
+.header {
+    /* background-color: red; */
+    font-size: 12px;
+    line-height: 30px;
+}
+
+.w {
+    height: 126px;
+}
+
+
+/* logo  */
+
+.logo {
+    float: left;
+    width: 232px;
+    height: 125px;
+    text-align: center;
+    box-shadow: 3px 0px 7px rgb(0 0 0 / 20%);
+    position: relative;
+    /* background-color: green; */
+}
+
+.logoImg {
+    height: 125px;
+}
+
+.logo a {
+    width: 232px;
+    height: 126px;
+    display: table-cell;
+    vertical-align: middle;
+}
+
+.header_con {
+    float: left;
+    height: 125px;
+    width: calc(100% - 232px);
+    /* background-color: gold; */
+}
+
+.site-nav {
+    width: 100%;
+    height: 30px;
+    background-color: #eee;
+}
+
+.city-choie {
+    width: 70px;
+    height: 30px;
+    cursor: pointer;
+}
+
+
+/* 字体图标-地图 */
+
+.iconfoot {
+    float: left;
+    font-style: normal;
+    width: 20px;
+    height: 26px;
+    margin-top: 2px;
+    /* background-color: red; */
+    font-size: 20px;
+    color: #f42424;
+    margin-top: 2px;
+}
+
+.icon-map-marker:before {
+    font-family: "iconfont" !important;
+    content: "\e634";
+}
+
+.ui-areamini-text {
+    /* display: inline-block; */
+    font-size: 12px;
+    float: left;
+}
+
+
+/* 顶部登录注册 */
+
+.text-info {
+    width: 105px;
+    line-height: 30px;
+}
+
+.text-info a {
+    display: inline-block;
+    width: 48px;
+}
+
+.link-logo {
+    padding-right: 5px;
+}
+
+
+/* 头部右侧我的订单部分 */
+
+.quick-menu>li {
+    float: left;
+    width: 60px;
+    text-align: center;
+}
+
+.quick-menu>li>div>a:hover {
+    color: #e23435;
+}
+
+.dt {
+    padding: 0 2px 0 2px;
+}
+
+.quick-menu .spacer {
+    width: 1px;
+    height: 10px;
+    margin: 11px 5px 0;
+    background-color: #ccc;
+}
+
+.dsc-cm {
+    position: relative;
+    height: 28px;
+    border: 1px solid transparent;
+    /* box-sizing: border-box; */
+}
+
+
+/* 网站导航开始 */
+
+.li_dorpdown {
+    position: relative;
+    width: 85px !important;
+    cursor: pointer;
+}
+
+.dorpdown-layer {
+    position: absolute;
+    width: 385px;
+    right: 0;
+    top: 30px;
+    border: 1px solid rgba(0, 0, 0, .2);
+    padding: 10px 10px 10px 21px;
+    box-sizing: border-box;
+    background-color: #fff;
+    display: none;
+    z-index: 1;
+}
+
+
+/* 加盒子覆盖下边框 */
+
+.dsc-cm-bottom-line {
+    position: absolute;
+    right: 0;
+    top: 29px;
+    width: 84px;
+    /* height: 5px; */
+    z-index: 2;
+    border-bottom: 1px solid #fff;
+    display: none;
+}
+
+.dorpdown-layer dl {
+    width: 85px;
+    float: left;
+}
+
+.dorpdown-layer .fore1 {
+    padding: 0 0 15px;
+    border-right: 1px solid #efefef;
+}
+
+.dorpdown-layer .fore2 {
+    padding: 0 0 0 30px;
+}
+
+.dorpdown-layer a {
+    display: inline-block;
+    width: 100%;
+    height: 100%;
+}
+
+.fore2 {
+    float: right;
+}
+
+.fore2 dt {
+    text-align: left;
+}
+
+.dorpdown-layer dt {
+    font-size: 14px;
+    font-weight: 700;
+}
+
+.fore2 dd {
+    width: 250px;
+    text-align: left;
+}
+
+.fore2 .item {
+    float: left;
+    width: 70px;
+    margin-right: 13px;
+}
+
+
+/* 网站导航下级目录显示 */
+
+.li_dorpdown:hover .dorpdown-layer {
+    display: block;
+}
+
+.li_dorpdown:hover .dsc-cm-bottom-line {
+    display: block;
+}
+
+.li_dorpdown:hover .dsc-cm {
+    position: relative;
+    border: 1px solid #ccc;
+    border-bottom: 1px solid #fff;
+    background-color: #fff;
+    z-index: 10;
+}
+
+.icon-xiangxia {
+    font-size: 16px;
+}
+
+.icon-xiangxia::after {
+    font-family: "iconfont" !important;
+    content: "\e600";
+}
+
+
+/* 网站导航结束 */
+
+.dsc-search-shopcar {
+    height: 85px;
+    /* background-color: rebeccapurple; */
+}
+
+.form {
+    margin: 20px 0 0 58px;
+}
+
+.form form {
+    width: 545px;
+    height: 35px;
+    /* background-color: blue; */
+}
+
+
+/* 搜索 */
+
+.search-text {
+    width: 378px;
+    height: 15px;
+    padding: 8px;
+    /* border: 2px solid #f42424; */
+    outline: 0;
+    font-size: 12px;
+    float: left;
+}
+
+.button-goods {
+    border: 0;
+    width: 70px;
+    height: 35px;
+    line-height: 34px;
+    background-color: #f42424;
+    color: #fff;
+    font-size: 14px;
+    cursor: pointer;
+    float: left;
+    outline: 0;
+}
+
+.button-store {
+    border: 0;
+    width: 70px;
+    height: 34px;
+    line-height: 34px;
+    background-color: #b31919;
+    color: #fff;
+    font-size: 14px;
+    cursor: pointer;
+    float: right;
+    outline: 0;
+}
+
+
+/* 我的购物车 */
+
+.dsc-shopcar {
+    position: relative;
+    float: right;
+    width: 178px;
+    height: 33px;
+    line-height: 33px;
+    border-color: #d2d2d2;
+    /* border: 1px solid; */
+    margin-top: 20px;
+    border: 1px solid #ccc;
+    /* border-bottom: 1px solid transparent; */
+    /* background-color: yellow; */
+}
+
+.shopCar {
+    width: 178px;
+    height: 33px;
+    line-height: 33px;
+    border-color: #d2d2d2;
+}
+
+.dsc-shopcar .shopCar a {
+    display: block;
+    color: #f42424;
+    padding-left: 30px;
+}
+
+.dsc-shopcar .shopCar a i {
+    font-style: normal;
+    font-size: 20px;
+    float: left;
+}
+
+.dsc-shopcar .shopCar a i:before {
+    font-size: 22px;
+    font-family: "iconfont" !important;
+    content: "\e63f";
+}
+
+.dsc-shopcar .shopCar a span {
+    margin-left: 8px;
+}
+
+.dsc-shopcar .shopCar a em {
+    font-style: normal;
+    height: 13px;
+    line-height: 13px;
+    padding: 1px;
+    border-radius: 50%;
+    background: #f42424;
+    color: #fff;
+    margin-top: 2px;
+    position: absolute;
+    top: 5px;
+    left: 124px;
+    text-align: center;
+    font-size: 12px;
+}
+
+
+/* 我的购物车经过效果 */
+
+.dorpdown-layer-car {
+    position: absolute;
+    width: 310px;
+    height: 110px;
+    right: -1px;
+    top: 34px;
+    border: 1px solid #ccc;
+    background-color: #fff;
+    display: none;
+}
+
+.my-shopping-line {
+    position: absolute;
+    right: 0;
+    top: 32px;
+    width: 168px;
+    height: 5px;
+    border: 5px solid #fff;
+    z-index: 1;
+    display: none;
+}
+
+.prompt {
+    width: 100%;
+    height: 100%;
+}
+
+.nogoods {
+    width: 150px;
+    height: 100%;
+    background-color: pink;
+    background: url(https://x.dscmall.cn/themes/ecmoban_dsc2017/images/cart-nogoods.png) no-repeat 30px 20px;
+}
+
+.prompt-right {
+    width: 135px;
+    height: 100%;
+    box-sizing: border-box;
+    padding-top: 20px;
+    text-align: center;
+}
+
+.prompt-right span {
+    display: inline-block;
+    width: 135px;
+    text-align: left;
+    line-height: 20px !important;
+}
+
+
+/* 经过我的购物车显示 */
+
+.dsc-shopcar:hover .dorpdown-layer-car {
+    display: block;
+}
+
+.dsc-shopcar:hover .my-shopping-line {
+    display: block;
+}
+
+
+/* 周大福 内衣 */
+
+ul.keyword {
+    float: left;
+    width: 100%;
+    height: 30px;
+}
+
+ul.keyword li {
+    display: inline-block;
+    margin-right: 5px;
+}
+
+ul.keyword li a {
+    display: inline-block;
+    width: 100%;
+    height: 100%;
+}
+
+.header-nav {
+    margin: 0 auto;
+    height: 39px;
+    background-color: #fff;
+    border-bottom: 2px solid #f42424;
+}
+
+.categorys-type {
+    float: left;
+    height: 40px;
+    width: 232px;
+    line-height: 40px;
+    margin-top: -1px;
+    text-align: center;
+    background-color: #f42424;
+}
+
+.categorys-type a {
+    font-size: 16px;
+    font-weight: 700;
+    color: #fff;
+    display: block;
+}
+
+.nav-main {
+    float: left;
+    height: 40px;
+}
+
+.nav-main ul li {
+    float: left;
+    margin-left: 38px;
+    height: 40px;
+}
+
+.header-current a {
+    color: #e23435;
+}
+
+.nav-main ul li a {
+    display: block;
+    font-size: 16px;
+    width: 100%;
+    height: 100%;
+    line-height: 40px;
+}
+
+
+/* 公共样式头部结束 */
+
+
+/* 公共样式底部开始 */
+
+.footer-new {
+    width: 100%;
+    bottom: 0;
+    background-color: #eee;
+}
+
+.footer-new-top {
+    height: 80px;
+    background-color: #eee;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: space-between;
+}
+
+.service-list {
+    width: 850px;
+    height: 80px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.f-icon {
+    width: 10px;
+    height: 10px;
+}
+
+.contact {
+    width: 300px;
+    height: 80px;
+}
+
+.service-item {
+    float: left;
+    width: 170px;
+    height: 32px;
+    margin-right: 5px;
+    margin-top: 25px;
+    padding-right: 10px;
+}
+
+.service-item span {
+    margin-left: 12px;
+    font-size: 18px;
+    line-height: 32px;
+}
+
+
+/* 精灵图 */
+
+.f-icon {
+    width: 32px;
+    height: 32px;
+    float: left;
+    background: url(https://x.dscmall.cn/themes/ecmoban_dsc2017/images/footer_new_icon.png) no-repeat;
+}
+
+.footer-new-top .f-icon-zheng {
+    background: url(https://x.dscmall.cn/themes/ecmoban_dsc2017/images/footer_new_icon.png) no-repeat -34px 0;
+}
+
+.f-icon-hao {
+    background-position: -68px 0;
+}
+
+.f-icon-shan {
+    background-position: -102px 0;
+}
+
+.f-icon-quan {
+    background-position: -136px 0;
+}
+
+
+/* 公共样式上部右侧开始 */
+
+.contact-item {
+    margin-top: 25px;
+    display: inline-block;
+}
+
+.contact-item-first {
+    /* display: inline-block; */
+    width: 180px;
+    height: 32px;
+}
+
+.f-icon-tel {
+    background-position: -3px -103px;
+}
+
+.f-icon-kefu {
+    background-position: -3px -138px;
+}
+
+
+/* 底部中间部分 */
+
+.footer-new-con {
+    width: 100%;
+    background-color: #262626;
+}
+
+.fnc-wrap {
+    height: 189px;
+    background-color: #262626;
+    padding-top: 30px;
+    border-bottom: 1px solid #464646;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: space-between;
+}
+
+.help-list {
+    width: 900px;
+    height: 128px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.help-list>div {
+    width: 170px;
+    height: 128px;
+    color: #fff;
+    font-size: 14px;
+}
+
+.help-item li {
+    height: 28px;
+}
+
+.help-item a {
+    color: #ccc;
+}
+
+.help-item h3 {
+    font-size: 16px;
+    margin-bottom: 20px;
+}
+
+.qr-code {
+    width: 276px;
+    height: 128px;
+}
+
+.qr-item {
+    width: 104px;
+    height: 104px;
+    float: left;
+}
+
+.qr-item-last {
+    float: right;
+}
+
+.code_img {
+    width: 100%;
+    height: 100%;
+}
+
+.code_img img {
+    width: 100%;
+}
+
+.code_txt {
+    width: 100%;
+    height: 20px;
+    background-color: #121212;
+    text-align: center;
+    color: #fff;
+}
+
+
+/* 公共样式底部 下部部分 */
+
+.footer-new-bot {
+    width: 100%;
+    height: 175px;
+    padding: 30px 0 20px;
+    text-align: center;
+    font-size: 12px;
+    box-sizing: border-box;
+    background-color: #262626;
+}
+
+.footer-new-bot a {
+    color: #888;
+}
+
+.footer-new-bot div p {
+    height: 18px;
+    margin-bottom: 10px;
+    line-height: 18px;
+}
+
+.footer-new-bot p .spacer {
+    overflow: hidden;
+    margin: 0 17px;
+    width: 1px;
+    height: 11px;
+    background-color: #444;
+    display: inline-block;
+}
+
+.color-555 a {
+    color: #555;
+}
