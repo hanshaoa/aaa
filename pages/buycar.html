@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="../JS/jquery-3.6.0.js"></script>
+    <script src="../JS/shopData.js"></script>
+    <link rel="stylesheet" href="../CSS/buycar.css">
+    <link rel="stylesheet" href="../CSS/base.css">
+    <link rel="stylesheet" href="../font_7c2fvhqzjoj/iconfont.css">
+
+    <!-- 四级联动引用 -->
+
+    <link rel="stylesheet" href="../cityPicker/css/city-picker.css">
+    <link rel="stylesheet" href="../cityPicker/css/main.css">
+</head>
+
+<body>
+    <div class="header-card">
+        <div class="w1200 header-center">
+            <div class="logo">
+                <a href="#">
+                    <img src="https://x.dscmall.cn/storage/images/common/shop_logo.gif" alt="">
+                </a>
+                <div class="tit fl">
+                    购物车（
+                    <span>0</span> ）
+                </div>
+            </div>
+            <div class="dsc-search">
+                <form action="" method="get">
+                    <input type="text" placeholder="周大福" autocomplete="off">
+                    <button type="submit">
+                        <i></i>
+                    </button>
+                </form>
+            </div>
+        </div>
+    </div>
+    <div class="content w1200">
+        <div class="content-goods">
+            <div class="cart-filter">
+                <div class="cart-filter-l">
+                    <div class="cart-step-item curr">
+                        <b>1.我的购物车</b>
+                        <i>
+                            <span class="iconfont icon-web__bitebiyoujiantou"></span>
+                        </i>
+                    </div>
+                    <div class="cart-step-item">
+                        <b>2.填写订单信息</b>
+                        <i>
+                            <span class="iconfont icon-web__bitebiyoujiantou"></span>
+                        </i>
+                    </div>
+                    <div class="cart-step-item">
+                        <b>3.成功提交订单</b>
+                    </div>
+                </div>
+                <div class="cart-filter-r">
+                    <div class="text">配送至</div>
+                    <div class="selector">
+                        <!-- <div class="tit">
+                            <b>河南省 郑州市 中原区 林山寨街道</b>
+                        </div>
+                        <div class="area"></div> -->
+                        <div data-toggle="city-picker">
+                            <input readonly type="text" data-toggle="city-picker" class="cityinput">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- 商品部分 -->
+            <div class="cart-table">
+                <div class="cart-head">
+                    <div class="column c-checkbox">
+                        <div class="cart-checkbox cart-all-checkbox" ectype="ckList">
+                            <input type="checkbox" id="cart-selectall" class="ui-checkbox checkboxshopAll" ectype="ckAll" />
+                            <label for="cart-selectall" class="ui-label-14">全选</label>
+                        </div>
+                    </div>
+                    <div class="column c-goods">商品</div>
+                    <div class="column c-props"></div>
+                    <div class="column c-price">单价（元）</div>
+                    <div class="column c-quantity">数量</div>
+                    <div class="column c-sum">小计</div>
+                    <div class="column c-action">操作</div>
+                </div>
+                <div class="cart-tbody">
+                    <div class="cart-item">
+                        <div class="shop">
+                            <div class="cart-checkbox">
+                                <input type="checkbox" name="checkShop" id="shopid_0" class="ui-checkbox shop-check">
+                                <label for="shopid_0" class="ui-label-14"> </label>
+                            </div>
+                            <div class="shop-txt">
+                                <a href="javascript:;" class="shop-name self-shop-name">商创自营</a>
+                                <a href="#" class="p-kefu p-c-violet">
+                                    <span class="iconfont icon-kefu"></span>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="item-list">
+                            <div class="item-single">
+                                <div class="item-full">
+                                    <!-- <div class="item-header">
+                                        <div class="f-txt">
+                                            <span class="full-icon">
+                                                <i class="i-left"></i>
+                                                满减</span> 活动商品已购满¥1.00元（
+                                            <span class="ftx-01">已减¥0.35元</span> )
+                                            <a href="#" class="ftx-05">
+                                                >再逛逛
+                                            </a>
+                                            <span class="f-price">
+                                                <div class="ml">¥108.00</div>
+                                                <div class="ftx-01 mt5">已减¥0.35</div>
+                                                    
+                                            </span>
+                                        </div>
+                                    </div> -->
+                                    <div class="item-item">
+                                        <div class="item-form">
+                                            <div class="cell s-checkbox">
+                                                <input type="checkbox" name="" id="checkbox_goods" class="son-check">
+                                                <label for="checkbox_goods"> </label>
+                                            </div>
+                                            <div class="cell s-goods">
+                                                <div class="goods-item">
+                                                    <div class="p-img">
+                                                        <a href="#">
+                                                            <img src="https://x.dscmall.cn/storage/images/201703/thumb_img/0_thumb_G_1489104977765.jpg" alt="" width="70" height="70">
+                                                        </a>
+                                                    </div>
+                                                    <div class="item-msg">
+                                                        <a href="#">皮克朋一叶子去角质去死皮膏啫喱面部温和祛黑头全身温和补水凝胶磨砂膏 新鲜护肤 植物护肤 去除角质 光滑柔嫩</a>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="cell s-props">&nbsp;</div>
+                                            <div class="cell s-price">
+                                                <strong class="goods_price">¥<span>108.00</span></strong>
+                                            </div>
+                                            <div class="cell s-quantity">
+                                                <div class="amount-warp">
+                                                    <input type="text" name="" id="" class="text buy-num" value="1">
+                                                    <div class="a-btn">
+                                                        <a href="#" class="btn-add">
+                                                            <span class="iconfont icon-xiangshangjiantou"></span>
+                                                        </a>
+                                                        <a href="#" class="btn-reduce btn-disabled">
+                                                            <span class="iconfont icon-xiangxiajiantou"></span>
+                                                        </a>
+                                                    </div>
+                                                </div>
+                                                <div class="havegoods">有货</div>
+                                            </div>
+
+                                            <div class="cell s-sum">
+                                                <strong class="goods_subtotal">¥<span>108.00</span></strong>
+                                            </div>
+                                            <div class="cell s-action">
+                                                <a href="#" class="cart-remove">删除</a>
+                                                <a href="#" class="cart-store">收藏</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="cart-tfoot">
+                    <div class="cart-toolbar w1200">
+                        <div class="cart-checkbox cart-all-checkbox">
+                            <input type="checkbox" id="toggle-checkboxes-down" class="ui-checkbox checkboxshopAll">
+                            <label for="toggle-checkboxes-down" class="ui-label-14">全选</label>
+                        </div>
+                        <div class="operation">
+                            <a href="#" class="cart-remove-batch">删除选中的商品</a>
+                            <a href="#" class="cart-follow-batch">移到我的收藏</a>
+                        </div>
+                        <div class="toolbar-right">
+                            <div class="btn-area">
+                                <form action="">
+                                    <input type="submit" class="submit-btn" value="去支付">
+                                </form>
+                            </div>
+                            <div class="price-sum">
+                                <span class="txt">总价(不含运费)：</span>
+                                <span class="price sumPrice">¥0</span>
+                            </div>
+                            <div class="reduce-sum">
+                                <span class="txt">已节省：</span>
+                                <span class="price totalRePrice">¥0.00</span>
+                            </div>
+                            <div class="amount-sum">
+                                已选择
+                                <em class="cart_check_num">0</em> 件商品
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- 提示 -->
+    <div class="modal-bg"></div>
+    <div class="modal-box">
+        <h2>提示</h2>
+        <p>亲,您确定要放弃该宝贝吗？</p>
+        <div class="btn">
+            <button class="ok">确定</button>
+            <button class="close">取消</button>
+        </div>
+    </div>
+
+    <!-- 猜你喜欢 -->
+    <div class="gussbox w1200">
+        <div class="guss-tit">
+            <h3>猜你喜欢</h3>
+        </div>
+        <div class="guess-like">
+            <ul></ul>
+        </div>
+    </div>
+    <script src="../JS/buycar.js"></script>
+    <script src="../cityPicker/js/city-picker.data.js"></script>
+    <script src="../cityPicker/js/city-picker.js"></script>
+</body>
+
+</html>

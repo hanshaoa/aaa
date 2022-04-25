@@ -1,0 +1,266 @@
+@font-face {
+    font-family: "iconfont";
+    /* Project id 2939639 */
+    src: url('../fonts/iconfont.woff2?t=1637337597759') format('woff2'),
+        url('../fonts/iconfont.woff?t=1637337597759') format('woff'),
+        url('../fonts/iconfont.ttf?t=1637337597759') format('truetype');
+}
+
+.iconfont {
+    font-family: "iconfont" !important;
+    font-size: 16px;
+    font-style: normal;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    float: left;
+    font-style: normal;
+    width: 20px;
+    height: 26px;
+    margin-top: 2px;
+    /* background-color: red; */
+    font-size: 20px;
+    margin-top: 2px;
+}
+
+/* 二维码字体图标 */
+.icon-qr-code:before {
+    position: absolute;
+    right: 2px;
+    top: 0;
+    color: #f42424;
+    font-family: "iconfont" !important;
+    content: "\e696";
+    font-size: 52px;
+    font-style: normal;
+}
+
+/* .item-info {
+    position: relative;
+} */
+.login-form .form form .item-info {
+    position: relative;
+}
+
+.icon-name::before {
+    position: absolute;
+    left: 12px;
+    top: 37px;
+    font-family: "iconfont" !important;
+    content: "\e7fd";
+    font-size: 18px;
+    color: #e8e8e8;
+    font-style: normal;
+}
+
+.icon-password::before {
+    position: absolute;
+    left: 12px;
+    top: 102px;
+    font-family: "iconfont" !important;
+    content: "\e626";
+    font-size: 18px;
+    color: #e8e8e8;
+    font-style: normal;
+}
+
+.icon-security::before {
+    position: absolute;
+    left: 12px;
+    top: 168px;
+    font-family: "iconfont" !important;
+    content: "\e604";
+    font-size: 18px;
+    color: #e8e8e8;
+    font-style: normal;
+}
+.register .header-href {
+    width: 130px;
+    height: 40px;
+}
+
+.register-input-last {
+    position: relative;
+    width: 270px;
+    height: 38px;
+}
+.register-yanzheng {
+    position: absolute;
+    width: 110px;
+    height: 32px;
+    right: 3px;
+    top: 164px;
+}
+
+.triangle {
+    position: absolute;
+    top: 7px;
+    right: 5px;
+    width: 0;
+    height: 0;
+    border-bottom: 47px solid #ffffff;
+    border-right: 47px solid transparent;
+    position: absolute;
+    cursor: pointer;
+}
+
+.container {
+    height: 530px;
+    color: #8c8c8c;
+    /* background-color: red; */
+}
+
+.login-wrap {
+    position: relative;
+    width: 100%;
+    height: 530px;
+    /* background-color: blue; */
+}
+
+.login-wrap>div {
+    height: 425px;
+    /* background-color: pink; */
+}
+
+.login-form {
+    position: relative;
+    width: 350px;
+    height: 440px;
+    z-index: 4;
+    margin-top: 40px;
+    background-color: #fff;
+}
+
+.coagent {
+    position: relative;
+    width: 350px;
+    height: 96px;
+    text-align: center;
+    padding: 20px 40px 0;
+    box-sizing: border-box;
+    overflow: hidden;
+    /* background-color: #345; */
+    z-index: 5;
+}
+
+.coagent .tit h3 {
+    position: absolute;
+    left: 36px;
+    top: 20px;
+    width: 270px;
+    height: 20px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+}
+
+.coagent .coagent-wrap {
+    position: absolute;
+    left: 36px;
+    top: 50px;
+    width: 270px;
+    height: 36px;
+    /* background-color: pink; */
+}
+
+.coagent .coagent-wrap a {
+    display: inline-block;
+    width: 36px;
+    height: 36px;
+}
+
+.coagent .coagent-wrap a b {
+    display: inline-block;
+    width: 36px;
+    height: 36px;
+    background: url(https://x.dscmall.cn/themes/ecmoban_dsc2017/images/login-icon.png) no-repeat;
+}
+
+.login-box {
+    width: 350px;
+    height: 329px;
+    /* background-color: #999; */
+}
+
+.login-wrap>div>a {
+    display: block;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    left: 0;
+    top: 0;
+    background: url(https://x.dscmall.cn/storage/data/afficheimg/1564453243544166182.jpg) center center no-repeat;
+}
+
+/* 账号登录 */
+.login-box {
+    position: relative;
+    padding: 20px 40px 30px;
+    box-sizing: border-box;
+}
+
+.static-form .tit h3 {
+    position: relative;
+    width: 94px;
+    height: 20px;
+    font-size: 16px;
+    font-weight: 400;
+    font-size: 16px;
+    text-align: center;
+    background-color: #fff;
+    margin: 0 auto;
+    z-index: 2;
+}
+
+.login-form .tit span {
+    position: absolute;
+    z-index: 1;
+    left: 0;
+    right: 0;
+    top: 28px;
+    height: 1px;
+    border-bottom: 1px dashed #e5e5e5;
+}
+
+.login-form .form {
+    width: 270px;
+    height: 230px;
+    margin: 0;
+}
+
+/* 登录 */
+.login-form .form .text {
+    width: 268px;
+    height: 38px;
+    font-size: 12px;
+    padding: 5px 10px 5px 35px;
+    box-sizing: border-box;
+    /* background-color: red; */
+}
+.login-form .form .text-submit {
+    position: absolute;
+    left: 40px;
+    bottom: 35px;
+    border: 0;
+    font-size: 16px;
+    font-weight: bold;
+    outline: 0;
+    color: #fff;
+    background-color: #f42424;
+}
+/* 忘记密码 */
+.notpwd {
+    position: absolute;
+    left: 40px;
+    bottom: 8px;
+    font-size: 12px;
+    color: #8c8c8c;
+}
+
+.login-wrap .form {
+    width: 270px;
+}
+
+.login-wrap .form form {
+    width: 270px;
+    height: 230px;
+}
