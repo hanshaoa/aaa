@@ -1,0 +1,23 @@
+{
+  "id": "3347883",
+  "name": "no name",
+  "font_family": "iconfont",
+  "css_prefix_text": "icon-",
+  "description": "",
+  "glyphs": [
+    {
+      "icon_id": "28722915",
+      "name": "关注",
+      "font_class": "guanzhu",
+      "unicode": "e613",
+      "unicode_decimal": 58899
+    },
+    {
+      "icon_id": "29187221",
+      "name": "关注",
+      "font_class": "guanzhu-copy",
+      "unicode": "e614",
+      "unicode_decimal": 58900
+    }
+  ]
+}
